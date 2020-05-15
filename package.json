@@ -1,0 +1,31 @@
+{
+  "name": "@dword-design/nuxt-buefy",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "dword-design/nuxt-buefy",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@dword-design.de>",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "commit": "base commit",
+    "dev": "base dev",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
+    "test": "base test"
+  },
+  "dependencies": {
+    "@dword-design/nuxt-push-plugins": "^1.0.0",
+    "get-package-name": "^1.1.0",
+    "nuxt-buefy": "^0.3.29",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^6.10.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,272 @@
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+dl.is-table {
+
+  @include tablet {
+    display: table;
+  }
+  
+  .dl-row {
+    @include mobile {
+      margin-bottom: .5rem;
+    }
+    @include tablet {
+      display: table-row;
+    }
+  }
+
+  dt {
+    font-weight: bold;
+
+    @include tablet {
+      display: table-cell;
+      padding-right: 1rem;
+    }
+  }
+
+  dd {
+    margin-left: 0;
+
+    @include tablet {
+      display: table-cell;
+    }
+  }
+}
+
+.media {
+  align-items: stretch;
+}
+
+.media-left, .media-right {
+  
+  &.is-bottom {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+@mixin horizontal-card {
+  flex-direction: row;
+  display: flex;
+  flex-basis: 50ex;
+  flex-grow: 0;
+  flex-shrink: 1;
+
+  .card-image {
+    flex: 1;
+
+    .image {
+      min-height: 100%;
+    }
+  }
+
+  .card-content {
+    flex: 1;
+  }
+
+  &.is-right {
+    flex-direction: row-reverse;
+  }
+}
+
+.card {
+
+  &.is-horizontal {
+    @include tablet {
+      @include horizontal-card;
+    }
+
+    &.is-mobile {
+      @include mobile {
+        @include horizontal-card;
+      }
+    }
+  }
+}
+
+.card {
+  .media:not(:last-child) {
+    margin-bottom: 0.75rem;
+  }
+}
+
+.button.is-link {
+  background: transparent;
+  color: $link;
+  padding: 0;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+
+  &:hover {
+    background: transparent;
+    color: $link-hover;
+  }
+
+  &:focus {
+    background: transparent;
+    color: $link-focus;
+  }
+}
+
+$cookie-message-background-color: $white !default;
+$cookie-message-shadow: 0 0 2rem 0 rgba(#000, .1) !default;
+
+.cookie-message {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: $cookie-message-background-color;
+  box-shadow: $cookie-message-shadow;
+  z-index: 10;
+}
+
+.media.is-vertical-mobile {
+
+  @include mobile {
+    flex-direction: column;
+  }
+
+  .media-left {
+    @include mobile {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .image {
+      @include mobile {
+        width: 100% !important;
+        height: auto !important;
+      }
+    }
+  }
+
+  .media-content {
+    @include mobile {
+      overflow-x : visible;
+    }
+  }
+  
+  .media-right {
+    @include mobile {
+      margin-left: 0;
+      margin-top: 1rem;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.field.is-grouped {
+  @include mobile {
+    flex-direction: column;
+  }
+
+  .field:not(:last-child) {
+    @include mobile {
+      margin-right: 0;
+    }
+  }
+}
+
+a .icon {
+  &,
+  &.is-small,
+  &.is-medium,
+  &.is-large {
+    height: 1.5em;
+    width: 1.5em;
+  }
+  &:first-child:not(:last-child) {
+    margin-left: calc(-0.375em - #{$button-border-width});
+    margin-right: 0.1875em;
+  }
+  &:last-child:not(:first-child) {
+    margin-left: 0.1875em;
+    margin-right: calc(-0.375em - #{$button-border-width});
+  }
+  &:first-child:last-child {
+    margin-left: calc(-0.375em - #{$button-border-width});
+    margin-right: calc(-0.375em - #{$button-border-width});
+  }
+}
+
+.buttons {
+
+  &.is-right {
+    margin-left: -.25rem;
+    margin-right: -.25rem;
+  }
+
+  &.is-vertical-tablet {
+
+    @include tablet {
+      flex-direction: column;
+    }
+
+    &:not(.is-right) .button:not(:last-child):not(.is-fullwidth) {
+      @include tablet {
+        margin-right: 0;
+      }
+    }
+
+    &.is-right {
+      @include tablet {
+        align-items: flex-end;
+      }
+    }
+  }
+}
+
+.hero.has-background {
+  position: relative;
+
+  .container {
+    position: relative;
+  }
+  
+  .hero-image {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: right center;
+
+      @include mobile {
+        max-width: 30rem;
+      }
+    }
+
+    @include mobile {
+      position: static;
+      text-align: center;
+    }
+  }
+
+  &.is-medium .hero-image {
+    top: -7.5rem;
+    bottom: -7.5rem;
+  }
+}
+
+.image.is-128 {
+  width: 128px;
+}
+
+.inline-list {
+  margin-left: -.125rem;
+  margin-right: -.125rem;
+
+  > * {
+    margin-left: .125rem;
+    margin-right: .125rem;
+  }
+}

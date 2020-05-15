@@ -24,9 +24,11 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@dword-design/base": "^6.10.0"
+    "@dword-design/base": "^6.10.0",
+    "@dword-design/base-config-component-library": "^1.0.0"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "baseConfig": "component-library"
 }

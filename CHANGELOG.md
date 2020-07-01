@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/dword-design/nuxt-buefy/compare/v1.0.1...v1.0.2) (2020-07-01)
+
+
+### Bug Fixes
+
+* many improvements and add contact form ([5140c43](https://github.com/dword-design/nuxt-buefy/commit/5140c4394c81ef077df53c4384569df1e8c4075c))
+* remove unneeded modules and fix some css ([6955998](https://github.com/dword-design/nuxt-buefy/commit/6955998ef12905e59345e790b7e6075a193a1688))
+
 ## [1.0.1](https://github.com/dword-design/nuxt-buefy/compare/v1.0.0...v1.0.1) (2020-05-15)
 
 

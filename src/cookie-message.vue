@@ -19,37 +19,27 @@
 <script>
 import Cookie from 'js-cookie'
 import Vue from 'vue'
+
 import CardModal from './card-modal.vue'
 
 export default {
-  data: () => ({
-    hasConsent: true,
-  }),
-  watch: {
-    hasConsent: {
-      handler() {
-        this.updateBodyPadding()
-      },
-    },
-  },
-  mounted() {
-    this.hasConsent = !!Cookie.get('cookieConsent')
-    window.addEventListener('resize', this.updateBodyPadding)
-  },
   beforeDestroy() {
     window.removeEventListener('resize', this.updateBodyPadding)
   },
+  data: () => ({
+    hasConsent: true,
+  }),
   methods: {
-    openDataPrivacy() {
-      return this.$buefy.modal.open({
-        component: CardModal,
-        props: { inner: Vue.component('DataPrivacy') },
-        parent: this,
-      })
-    },
     consent() {
       Cookie.set('cookieConsent', 1)
       this.hasConsent = true
+    },
+    openDataPrivacy() {
+      return this.$buefy.modal.open({
+        component: CardModal,
+        parent: this,
+        props: { inner: Vue.component('DataPrivacy') },
+      })
     },
     updateBodyPadding() {
       if (process.client) {
@@ -59,6 +49,17 @@ export default {
             : `${this.$el.offsetHeight}px`
         })
       }
+    },
+  },
+  mounted() {
+    this.hasConsent = !!Cookie.get('cookieConsent')
+    window.addEventListener('resize', this.updateBodyPadding)
+  },
+  watch: {
+    hasConsent: {
+      handler() {
+        this.updateBodyPadding()
+      },
     },
   },
 }

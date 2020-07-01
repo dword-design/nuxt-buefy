@@ -112,6 +112,7 @@ dl.is-table {
 
 $cookie-message-background-color: $white !default;
 $cookie-message-shadow: 0 0 2rem 0 rgba(#000, .1) !default;
+$cookie-message-font-size: $size-6 !default;
 
 .cookie-message {
   position: fixed;
@@ -122,6 +123,7 @@ $cookie-message-shadow: 0 0 2rem 0 rgba(#000, .1) !default;
   background: $cookie-message-background-color;
   box-shadow: $cookie-message-shadow;
   z-index: 10;
+  font-size: $cookie-message-font-size;
 }
 
 .media.is-vertical-mobile {
@@ -220,43 +222,6 @@ a .icon {
   }
 }
 
-.hero.has-background {
-  position: relative;
-
-  .container {
-    position: relative;
-  }
-  
-  .hero-image {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      object-position: right center;
-
-      @include mobile {
-        max-width: 30rem;
-      }
-    }
-
-    @include mobile {
-      position: static;
-      text-align: center;
-    }
-  }
-
-  &.is-medium .hero-image {
-    top: -7.5rem;
-    bottom: -7.5rem;
-  }
-}
-
 .image.is-128 {
   width: 128px;
 }
@@ -269,4 +234,28 @@ a .icon {
     margin-left: .125rem;
     margin-right: .125rem;
   }
+}
+
+.columns {
+
+  &.is-reverse-mobile {
+    @include mobile {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    &.is-vcentered {
+      @include mobile {
+        align-items: stretch;
+      }
+    }
+  }
+}
+
+.mb-12 {
+  margin-bottom: 6rem;
+}
+
+.px-2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }

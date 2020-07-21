@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/dword-design/nuxt-buefy/compare/v1.0.2...v1.0.3) (2020-07-21)
+
+
+### Bug Fixes
+
+* refactoring ([588ea71](https://github.com/dword-design/nuxt-buefy/commit/588ea7155fe45c34412fbd23dc4b86abb10f9e54))
+
 ## [1.0.2](https://github.com/dword-design/nuxt-buefy/compare/v1.0.1...v1.0.2) (2020-07-01)
 
 

@@ -18,18 +18,16 @@
     "test": "base test"
   },
   "dependencies": {
+    "@dword-design/buefy-addons": "^1.0.0",
     "@dword-design/nuxt-push-plugins": "^1.0.0",
     "get-package-name": "^1.1.0",
-    "js-cookie": "^2.2.1",
     "nuxt-buefy": "^0.3.29",
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@dword-design/base": "^6.10.0",
-    "@dword-design/base-config-component-library": "^1.0.0"
+    "@dword-design/base": "^6.10.0"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "baseConfig": "@dword-design/component-library"
+  }
 }

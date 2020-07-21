@@ -1,5 +1,4 @@
+import AddonsPlugin from '@dword-design/buefy-addons'
 import Vue from 'vue'
 
-import CookieMessage from './cookie-message.vue'
-
-Vue.component('BCookieMessage', CookieMessage)
+Vue.plugin(AddonsPlugin)

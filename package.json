@@ -20,9 +20,8 @@
   "dependencies": {
     "@dword-design/buefy-addons": "^1.0.0",
     "@dword-design/nuxt-push-plugins": "^1.0.0",
-    "buefy": "dword-design/buefy#fork",
     "get-package-name": "^1.1.0",
-    "nuxt-buefy": "^0.3.29",
+    "nuxt-buefy": "dword-design/nuxt-buefy-1#fork",
     "vue": "^2.6.11"
   },
   "devDependencies": {

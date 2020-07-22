@@ -2070,13 +2070,6 @@ browserslist@^4.12.0, browserslist@^4.8.5:
     escalade "^3.0.1"
     node-releases "^1.1.58"
 
-buefy@^0.8.20:
-  version "0.8.20"
-  resolved "https://registry.yarnpkg.com/buefy/-/buefy-0.8.20.tgz#75708800548220654575903d031a81fc8575b7f3"
-  integrity sha512-pg8Cn0m9cjqp2/vaKT4VIfU8KIumuX/gAT1GtearXRs56+kKqAPx3j9O8cm9W6P4jPUCHajKX6H8AqD0ram2Bg==
-  dependencies:
-    bulma "0.7.5"
-
 buefy@dword-design/buefy#fork:
   version "0.8.20"
   resolved "https://codeload.github.com/dword-design/buefy/tar.gz/bd463a5fbd1a1b31f20f99e69db4cdf34ce456a0"
@@ -6648,12 +6641,11 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt-buefy@^0.3.29:
+nuxt-buefy@dword-design/nuxt-buefy-1#fork:
   version "0.3.31"
-  resolved "https://registry.yarnpkg.com/nuxt-buefy/-/nuxt-buefy-0.3.31.tgz#9cf9dc71c35077bc1531001e1e05d6da49269aa4"
-  integrity sha512-nO2xd56fizUlNK86D9VRB9DdGq2ekYqDEhBACaQ9XwE16JwCPnV+nLObI/+RkiQNAQM4P12dIqAtbHHgfT6dVw==
+  resolved "https://codeload.github.com/dword-design/nuxt-buefy-1/tar.gz/4122eb297021218aae264908dfeda23ce1b7fe48"
   dependencies:
-    buefy "^0.8.20"
+    buefy dword-design/buefy#fork
 
 nyc@^15.0.0:
   version "15.1.0"

@@ -2077,6 +2077,12 @@ buefy@^0.8.20:
   dependencies:
     bulma "0.7.5"
 
+buefy@dword-design/buefy#fork:
+  version "0.8.20"
+  resolved "https://codeload.github.com/dword-design/buefy/tar.gz/bd463a5fbd1a1b31f20f99e69db4cdf34ce456a0"
+  dependencies:
+    bulma "0.7.5"
+
 buffer-from@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"

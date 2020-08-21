@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/dword-design/nuxt-buefy/compare/v1.0.6...v1.0.7) (2020-08-21)
+
+
+### Bug Fixes
+
+* remove unneeded class ([f6ae020](https://github.com/dword-design/nuxt-buefy/commit/f6ae0204441af5f46f9b11b48c1461bc5562bc46))
+
 ## [1.0.6](https://github.com/dword-design/nuxt-buefy/compare/v1.0.5...v1.0.6) (2020-08-21)
 
 

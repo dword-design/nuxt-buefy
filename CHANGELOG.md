@@ -1,3 +1,11 @@
+## [1.0.6](https://github.com/dword-design/nuxt-buefy/compare/v1.0.5...v1.0.6) (2020-08-21)
+
+
+### Bug Fixes
+
+* remove buefy fork ([56796ff](https://github.com/dword-design/nuxt-buefy/commit/56796ff5ff8c64eaffaaf3749e7ecfed9daed881))
+* upgrades ([e6d86d1](https://github.com/dword-design/nuxt-buefy/commit/e6d86d1bd50494e2945e9a33d93d8113bbd97455))
+
 ## [1.0.5](https://github.com/dword-design/nuxt-buefy/compare/v1.0.4...v1.0.5) (2020-07-22)
 
 

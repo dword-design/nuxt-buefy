@@ -173,28 +173,6 @@ $cookie-message-font-size: $size-6 !default;
   }
 }
 
-a .icon {
-  &,
-  &.is-small,
-  &.is-medium,
-  &.is-large {
-    height: 1.5em;
-    width: 1.5em;
-  }
-  &:first-child:not(:last-child) {
-    margin-left: calc(-0.375em - #{$button-border-width});
-    margin-right: 0.1875em;
-  }
-  &:last-child:not(:first-child) {
-    margin-left: 0.1875em;
-    margin-right: calc(-0.375em - #{$button-border-width});
-  }
-  &:first-child:last-child {
-    margin-left: calc(-0.375em - #{$button-border-width});
-    margin-right: calc(-0.375em - #{$button-border-width});
-  }
-}
-
 .buttons {
 
   &.is-right {

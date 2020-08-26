@@ -72,6 +72,10 @@ dl.is-table {
 
 .card {
 
+ .media:not(:last-child) {
+    margin-bottom: 0.75rem;
+  }
+  
   &.is-horizontal {
     @include tablet {
       @include horizontal-card;
@@ -83,11 +87,20 @@ dl.is-table {
       }
     }
   }
-}
+  
+  &.is-hover-image {
+    .image {
+      overflow: hidden;
+    }
 
-.card {
-  .media:not(:last-child) {
-    margin-bottom: 0.75rem;
+    img {
+      transition: 0.3s all;
+      backface-visibility: hidden;
+    }
+
+    &:hover img {
+      transform: scale(1.1);
+    }
   }
 }
 

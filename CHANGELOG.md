@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/dword-design/nuxt-buefy/compare/v1.0.8...v1.0.9) (2020-09-09)
+
+
+### Bug Fixes
+
+* trigger release ([9fe763e](https://github.com/dword-design/nuxt-buefy/commit/9fe763e7ea9a665d5a6e493e201fba34009b6200))
+
 ## [1.0.8](https://github.com/dword-design/nuxt-buefy/compare/v1.0.7...v1.0.8) (2020-08-21)
 
 

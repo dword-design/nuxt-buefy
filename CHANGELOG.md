@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/dword-design/nuxt-buefy/compare/v1.0.11...v1.0.12) (2020-12-10)
+
+
+### Bug Fixes
+
+* replace get-package-name with depcheck-package-name ([643636f](https://github.com/dword-design/nuxt-buefy/commit/643636fe08415b17af2ade4a59a8773cdf1ebf9b))
+
 ## [1.0.11](https://github.com/dword-design/nuxt-buefy/compare/v1.0.10...v1.0.11) (2020-12-02)
 
 

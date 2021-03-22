@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/dword-design/nuxt-buefy/compare/v1.0.14...v1.0.15) (2021-03-22)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#10](https://github.com/dword-design/nuxt-buefy/issues/10)) ([03d96ff](https://github.com/dword-design/nuxt-buefy/commit/03d96ff491aec4388b750c5e86f7efb122709945))
+
 ## [1.0.14](https://github.com/dword-design/nuxt-buefy/compare/v1.0.13...v1.0.14) (2021-03-17)
 
 

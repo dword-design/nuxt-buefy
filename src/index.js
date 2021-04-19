@@ -1,9 +1,9 @@
-import pushPlugins from '@dword-design/nuxt-push-plugins'
 import packageName from 'depcheck-package-name'
+import nuxtPushPlugins from 'nuxt-push-plugins'
 
 export default function (options = {}) {
   this.addModule([packageName`nuxt-buefy`, options])
-  pushPlugins(this, require.resolve('./plugin'))
+  nuxtPushPlugins(this, require.resolve('./plugin'))
   if (options.css) {
     this.options.css.push(require.resolve('./style.scss'))
   }

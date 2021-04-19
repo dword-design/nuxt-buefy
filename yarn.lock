@@ -1135,10 +1135,10 @@
     spdx-license-list "^6.1.0"
     yaml "^1.8.2"
 
-"@dword-design/buefy-addons@^1.0.0":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@dword-design/buefy-addons/-/buefy-addons-1.1.5.tgz#8a5045476447fde3d926b132be19e6e047e7afb1"
-  integrity sha512-hrvXOY3J1zKmglqPvWEIvRGW8p2+OFyP6mNe6ow8IuCJ9i5k+ngbsr0QIXXnCf1ivO9IdSMu8GaLh7kpGCTxAQ==
+"@dword-design/buefy-addons@^1.1.5":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@dword-design/buefy-addons/-/buefy-addons-1.1.6.tgz#7e86373db3d9ca6627afac20735a17ccf6d962a3"
+  integrity sha512-Xn25/RVCmGlONFhVxrHV74IFRzIM3M6slNxWzVG5i5L3SjyODCbOBGOlsjvjbwlBdhDdlOLqadvX1UtpSJ2aAw==
   dependencies:
     js-cookie "^2.2.1"
     vue "^2.6.11"

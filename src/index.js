@@ -1,5 +1,5 @@
-import nuxtPushPlugins from 'nuxt-push-plugins'
 import packageName from 'depcheck-package-name'
+import nuxtPushPlugins from 'nuxt-push-plugins'
 
 export default function (options = {}) {
   this.addModule([packageName`nuxt-buefy`, options])

@@ -1,3 +1,10 @@
+## [1.0.18](https://github.com/dword-design/nuxt-buefy/compare/v1.0.17...v1.0.18) (2021-04-19)
+
+
+### Bug Fixes
+
+* fix deprecated dependency ([#20](https://github.com/dword-design/nuxt-buefy/issues/20)) ([96591c9](https://github.com/dword-design/nuxt-buefy/commit/96591c9aad935578f0c66a531695901e3c3d9d45))
+
 ## [1.0.17](https://github.com/dword-design/nuxt-buefy/compare/v1.0.16...v1.0.17) (2021-04-12)
 
 

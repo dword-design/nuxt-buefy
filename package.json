@@ -22,7 +22,7 @@
   "dependencies": {
     "@dword-design/buefy-addons": "^1.0.0",
     "@dword-design/nuxt-push-plugins": "^1.0.0",
-    "depcheck-package-name": "^1.0.0",
+    "depcheck-package-name": "^1.0.5",
     "nuxt-buefy": "^0.4.2",
     "vue": "^2.6.11"
   },

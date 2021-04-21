@@ -1,3 +1,11 @@
+## [1.0.19](https://github.com/dword-design/nuxt-buefy/compare/v1.0.18...v1.0.19) (2021-04-21)
+
+
+### Bug Fixes
+
+* update config files ([6146494](https://github.com/dword-design/nuxt-buefy/commit/6146494706929e25a0ce0c77c664176e38a08278))
+* updated package.json[description] ([#22](https://github.com/dword-design/nuxt-buefy/issues/22)) ([78fab61](https://github.com/dword-design/nuxt-buefy/commit/78fab610c214a14cdfeaa6a1f53abea392e83854))
+
 ## [1.0.18](https://github.com/dword-design/nuxt-buefy/compare/v1.0.17...v1.0.18) (2021-04-19)
 
 

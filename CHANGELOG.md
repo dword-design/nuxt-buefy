@@ -1,3 +1,10 @@
+## [1.0.21](https://github.com/dword-design/nuxt-buefy/compare/v1.0.20...v1.0.21) (2021-04-27)
+
+
+### Bug Fixes
+
+* await addModule ([#26](https://github.com/dword-design/nuxt-buefy/issues/26)) ([4ba4783](https://github.com/dword-design/nuxt-buefy/commit/4ba478374cb4c87c5874fffe1c4594d7a47faa28))
+
 ## [1.0.20](https://github.com/dword-design/nuxt-buefy/compare/v1.0.19...v1.0.20) (2021-04-22)
 
 

@@ -1,3 +1,10 @@
+## [1.0.22](https://github.com/dword-design/nuxt-buefy/compare/v1.0.21...v1.0.22) (2021-04-28)
+
+
+### Bug Fixes
+
+* updated package.json[description] ([#24](https://github.com/dword-design/nuxt-buefy/issues/24)) ([d561fd6](https://github.com/dword-design/nuxt-buefy/commit/d561fd61cd2e872fb85f227796129b8e9c799420))
+
 ## [1.0.21](https://github.com/dword-design/nuxt-buefy/compare/v1.0.20...v1.0.21) (2021-04-27)
 
 

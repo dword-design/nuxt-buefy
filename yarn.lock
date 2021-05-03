@@ -1199,10 +1199,10 @@
     std-env "^2.3.0"
     yaml "^1.8.2"
 
-"@dword-design/buefy-addons@^1.0.0":
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/@dword-design/buefy-addons/-/buefy-addons-1.1.9.tgz#9e784fbb1b41fa682073f8227afe46b75270ea3d"
-  integrity sha512-Zx65mE8orLRuorF+SlrujEhvKxUgxd9D5PN6B2/blGNZ3+IUBBkHW5G8F7gUBp5Y1DZHt/M45qWZuXMmdosyZA==
+"@dword-design/buefy-addons@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/buefy-addons/-/buefy-addons-2.0.0.tgz#963b11a6073181f375c6ead28020f4e00ea11aea"
+  integrity sha512-xmQsN9tWSBZngXN52MZnqlWPGp2MYeNzdV+SZOA3RMJx6HIYBVMGeGP79LJRSLcJg/vtag70i+lhTyH/5gWdsA==
   dependencies:
     js-cookie "^2.2.1"
     vue "^2.6.11"

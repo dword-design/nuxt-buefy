@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/nuxt-buefy/compare/v1.0.22...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#28](https://github.com/dword-design/nuxt-buefy/issues/28)) ([abf309f](https://github.com/dword-design/nuxt-buefy/commit/abf309f106aeac2ca7150b4301054b538c7d7196))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.0.22](https://github.com/dword-design/nuxt-buefy/compare/v1.0.21...v1.0.22) (2021-04-28)
 
 

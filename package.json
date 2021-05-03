@@ -19,7 +19,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "@dword-design/buefy-addons": "^1.0.0",
+    "@dword-design/buefy-addons": "^2.0.0",
     "depcheck-package-name": "^1.0.0",
     "nuxt-buefy": "^0.4.2",
     "nuxt-push-plugins": "^1.0.16",

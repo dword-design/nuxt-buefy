@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/dword-design/nuxt-buefy/compare/v2.0.0...v2.0.1) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/buefy-addons to v2 ([#29](https://github.com/dword-design/nuxt-buefy/issues/29)) ([df6fb92](https://github.com/dword-design/nuxt-buefy/commit/df6fb926017101846d705e76f7ff10446cf85c21))
+
 # [2.0.0](https://github.com/dword-design/nuxt-buefy/compare/v1.0.22...v2.0.0) (2021-05-03)
 
 

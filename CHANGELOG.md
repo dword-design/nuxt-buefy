@@ -1,3 +1,11 @@
+## [2.0.2](https://github.com/dword-design/nuxt-buefy/compare/v2.0.1...v2.0.2) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency depcheck-package-name to v2 ([#30](https://github.com/dword-design/nuxt-buefy/issues/30)) ([1275845](https://github.com/dword-design/nuxt-buefy/commit/12758456def1401f5061eba4b47b15c0ff5d7bab))
+* update dependency nuxt-push-plugins to v2 ([#31](https://github.com/dword-design/nuxt-buefy/issues/31)) ([53b2227](https://github.com/dword-design/nuxt-buefy/commit/53b22276a1f2fc230b487397f4f63d411dff5ebc))
+
 ## [2.0.1](https://github.com/dword-design/nuxt-buefy/compare/v2.0.0...v2.0.1) (2021-05-04)
 
 

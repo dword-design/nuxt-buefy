@@ -1,3 +1,10 @@
+## [2.0.7](https://github.com/dword-design/nuxt-buefy/compare/v2.0.6...v2.0.7) (2022-01-04)
+
+
+### Bug Fixes
+
+* update config files ([4a7ee1f](https://github.com/dword-design/nuxt-buefy/commit/4a7ee1f36e52ced394264b2ade83e81ceab85f44))
+
 ## [2.0.6](https://github.com/dword-design/nuxt-buefy/compare/v2.0.5...v2.0.6) (2021-07-20)
 
 

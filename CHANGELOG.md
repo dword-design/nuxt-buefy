@@ -1,3 +1,10 @@
+## [2.0.9](https://github.com/dword-design/nuxt-buefy/compare/v2.0.8...v2.0.9) (2022-07-07)
+
+
+### Bug Fixes
+
+* stretched link and scale on hover ([68895d5](https://github.com/dword-design/nuxt-buefy/commit/68895d5d8e02d93f42727414b636a2eb8beaf7d3))
+
 ## [2.0.8](https://github.com/dword-design/nuxt-buefy/compare/v2.0.7...v2.0.8) (2022-01-12)
 
 

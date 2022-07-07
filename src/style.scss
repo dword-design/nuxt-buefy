@@ -1,5 +1,22 @@
 @import "~bulma/bulma.sass";
 @import "~buefy/src/scss/buefy";
+@import "~sass-stretched-link";
+
+$shadow-lg: 0 0.5em 2em -0.125em rgba($scheme-invert, 0.2),
+  0 0 0 1px rgba($scheme-invert, 0.02);
+  
+.is-stretched {
+  @include stretched-link;
+}
+
+.is-scale-on-hover {
+  transition: 0.3s all;
+
+  &:hover,
+  &:focus-within {
+    transform: scale(1.05);
+  }
+}
 
 dl.is-table {
 
@@ -36,6 +53,41 @@ dl.is-table {
 
 .media {
   align-items: stretch;
+
+  &.is-vertical-mobile {
+
+    @include mobile {
+      flex-direction: column;
+    }
+  
+    .media-left {
+      @include mobile {
+        margin-right: 0;
+        margin-bottom: 1rem;
+      }
+    
+      .image {
+        @include mobile {
+          width: 100% !important;
+          height: auto !important;
+        }
+      }
+    }
+  
+    .media-content {
+      @include mobile {
+        overflow-x : visible;
+      }
+    }
+    
+    .media-right {
+      @include mobile {
+        margin-left: 0;
+        margin-top: 1rem;
+        justify-content: flex-end;
+      }
+    }
+  }
 }
 
 .media-left, .media-right {
@@ -102,75 +154,34 @@ dl.is-table {
       transform: scale(1.1);
     }
   }
-}
 
-.button.is-link {
-  background: transparent;
-  color: $link;
-  padding: 0;
-  height: auto;
-  font-size: inherit;
-  line-height: inherit;
-  vertical-align: baseline;
-
-  &:hover {
-    background: transparent;
-    color: $link-hover;
-  }
-
-  &:focus {
-    background: transparent;
-    color: $link-focus;
-  }
-}
-
-$cookie-message-background-color: $white !default;
-$cookie-message-shadow: 0 0 2rem 0 rgba(#000, .1) !default;
-$cookie-message-font-size: $size-6 !default;
-
-.cookie-message {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 1rem;
-  background: $cookie-message-background-color;
-  box-shadow: $cookie-message-shadow;
-  z-index: 10;
-  font-size: $cookie-message-font-size;
-}
-
-.media.is-vertical-mobile {
-
-  @include mobile {
-    flex-direction: column;
-  }
-
-  .media-left {
-    @include mobile {
-      margin-right: 0;
-      margin-bottom: 1rem;
+  &:not(.is-shadowless).is-scale-on-hover {
+    &:hover,
+    &:focus-within {
+      box-shadow: $shadow-lg;
     }
+  }
+}
+
+.button {
   
-    .image {
-      @include mobile {
-        width: 100% !important;
-        height: auto !important;
-      }
-    }
-  }
+  &.is-link {
+    background: transparent;
+    color: $link;
+    padding: 0;
+    height: auto;
+    font-size: inherit;
+    line-height: inherit;
+    vertical-align: baseline;
 
-  .media-content {
-    @include mobile {
-      overflow-x : visible;
+    &:hover {
+      background: transparent;
+      color: $link-hover;
     }
-  }
-  
-  .media-right {
-    @include mobile {
-      margin-left: 0;
-      margin-top: 1rem;
-      justify-content: flex-end;
+
+    &:focus {
+      background: transparent;
+      color: $link-focus;
     }
   }
 }

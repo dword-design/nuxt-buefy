@@ -23,6 +23,7 @@
     "depcheck-package-name": "^2.0.0",
     "nuxt-buefy": "^0.4.2",
     "nuxt-push-plugins": "^2.0.0",
+    "sass-stretched-link": "^1.0.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {

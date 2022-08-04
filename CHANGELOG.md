@@ -1,3 +1,10 @@
+## [2.0.10](https://github.com/dword-design/nuxt-buefy/compare/v2.0.9...v2.0.10) (2022-08-04)
+
+
+### Bug Fixes
+
+* self-implement nuxt-buefy ([52add21](https://github.com/dword-design/nuxt-buefy/commit/52add21801721d4839e34f4581e443d27dc2fc90))
+
 ## [2.0.9](https://github.com/dword-design/nuxt-buefy/compare/v2.0.8...v2.0.9) (2022-07-07)
 
 

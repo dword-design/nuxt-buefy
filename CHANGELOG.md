@@ -1,3 +1,10 @@
+## [2.0.11](https://github.com/dword-design/nuxt-buefy/compare/v2.0.10...v2.0.11) (2022-08-04)
+
+
+### Bug Fixes
+
+* set link active class ([2ba2728](https://github.com/dword-design/nuxt-buefy/commit/2ba2728a7788aeac1c9638881630a5ad3a1f9ef3))
+
 ## [2.0.10](https://github.com/dword-design/nuxt-buefy/compare/v2.0.9...v2.0.10) (2022-08-04)
 
 

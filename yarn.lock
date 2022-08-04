@@ -1319,6 +1319,11 @@
     js-cookie "^2.2.1"
     vue "^2.6.11"
 
+"@dword-design/buefy-svg-icon@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/buefy-svg-icon/-/buefy-svg-icon-1.0.0.tgz#bbad9530a83aa9e308548da0cefadac34dcbeda1"
+  integrity sha512-MGdXuUhqD1j/WetEQKcN62EjGtxuQnYnuYEPoMEqR2BHvpud6mYuBV8VMwOyVpP1EW4RsyDaR8Ca+B5/4JCBVg==
+
 "@dword-design/ci@^3.0.0":
   version "3.0.9"
   resolved "https://registry.yarnpkg.com/@dword-design/ci/-/ci-3.0.9.tgz#f6ec81e94caaaa19f21f40f5856ba5fb53be54f7"
@@ -2830,10 +2835,10 @@ bser@2.1.1:
   dependencies:
     node-int64 "^0.4.0"
 
-buefy@^0.9.20:
-  version "0.9.20"
-  resolved "https://registry.yarnpkg.com/buefy/-/buefy-0.9.20.tgz#db3fb39aee09adc61e4ee7035e3f49be852ef09e"
-  integrity sha512-lEJTLZEuN7dI6XUGq6N5oL691ncHV8Zu9WtyBsQTOlcBjCJkSUXKicorPukS0wQi0z3w+pOl/e/FTCVswJj3Ng==
+buefy@^0.9.21:
+  version "0.9.21"
+  resolved "https://registry.yarnpkg.com/buefy/-/buefy-0.9.21.tgz#1b01f4dafefe958ca7934447dfe821dfef18d2fe"
+  integrity sha512-geOJgzi5jFDyRJ9Zl0379yyRBatZ6Qg83kRnCJTb7/nCuXcfXd/eis3tFaDTGuntnfv2MezHzc092OIHwgRwAg==
   dependencies:
     bulma "0.9.3"
 
@@ -7714,13 +7719,6 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha512-4jbtZXNAsfZbAHiiqjLPBiCl16dES1zI4Hpzzxw61Tk+loF+sBDBKx1ICKKKwIqQ7M0mFn1TmkN7euSncWgHiQ==
-
-nuxt-buefy@^0.4.2:
-  version "0.4.22"
-  resolved "https://registry.yarnpkg.com/nuxt-buefy/-/nuxt-buefy-0.4.22.tgz#0a6b5417017c6340342aea2a3d36b74a01cd9eed"
-  integrity sha512-wqu7DkZo9c4yj+kLeBGYGEAqaLrnaDoYssGGha5s8Xp6CTtunLPq0Kdj26yu4k0rtI4M7qZaEuRgw9CMLHLhVw==
-  dependencies:
-    buefy "^0.9.20"
 
 nuxt-push-plugins@^2.0.0:
   version "2.0.9"

@@ -1,3 +1,10 @@
+## [2.0.12](https://github.com/dword-design/nuxt-buefy/compare/v2.0.11...v2.0.12) (2022-08-28)
+
+
+### Bug Fixes
+
+* remove router link class ([40bc0f0](https://github.com/dword-design/nuxt-buefy/commit/40bc0f05f48242478e73300437f1cb9cfab24232))
+
 ## [2.0.11](https://github.com/dword-design/nuxt-buefy/compare/v2.0.10...v2.0.11) (2022-08-04)
 
 

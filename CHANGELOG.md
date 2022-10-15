@@ -1,3 +1,10 @@
+## [2.0.13](https://github.com/dword-design/nuxt-buefy/compare/v2.0.12...v2.0.13) (2022-10-15)
+
+
+### Bug Fixes
+
+* fix icon size in Safari ([0acee0e](https://github.com/dword-design/nuxt-buefy/commit/0acee0ef06bb761e34c73d49a7785d85704b3567))
+
 ## [2.0.12](https://github.com/dword-design/nuxt-buefy/compare/v2.0.11...v2.0.12) (2022-08-28)
 
 

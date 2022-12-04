@@ -5,6 +5,8 @@
   "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
+  "type": "module",
+  "exports": "./dist/index.js",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -20,17 +22,24 @@
   },
   "dependencies": {
     "@dword-design/buefy-addons": "^2.0.0",
-    "@dword-design/buefy-svg-icon": "^1.0.0",
+    "@dword-design/buefy-svg-icon": "1.0.0",
     "buefy": "^0.9.21",
     "nuxt-push-plugins": "^2.0.0",
     "sass-stretched-link": "^1.0.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@dword-design/base": "^8.0.0"
+    "@dword-design/base": "^9.1.8",
+    "@dword-design/functions": "^4.1.0",
+    "@dword-design/puppeteer": "^6.0.0",
+    "@dword-design/tester": "^2.0.11",
+    "@dword-design/tester-plugin-puppeteer": "^2.1.22",
+    "fs-extra": "^11.1.0",
+    "nuxt": "^2",
+    "with-local-tmp-dir": "^4.1.0"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "publishConfig": {
     "access": "public"

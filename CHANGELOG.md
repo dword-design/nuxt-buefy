@@ -1,3 +1,10 @@
+## [2.0.15](https://github.com/dword-design/nuxt-buefy/compare/v2.0.14...v2.0.15) (2022-12-04)
+
+
+### Bug Fixes
+
+* trigger release ([522e7d8](https://github.com/dword-design/nuxt-buefy/commit/522e7d83566c78c60a70b574e092fe6e51a2fe6d))
+
 ## [2.0.14](https://github.com/dword-design/nuxt-buefy/compare/v2.0.13...v2.0.14) (2022-12-04)
 
 

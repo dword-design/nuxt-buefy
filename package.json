@@ -37,7 +37,7 @@
     "@dword-design/tester-plugin-puppeteer": "^2.1.22",
     "fs-extra": "^11.1.0",
     "nuxt": "^2",
-    "with-local-tmp-dir": "^4.1.0"
+    "with-local-tmp-dir": "^5.0.0"
   },
   "engines": {
     "node": ">=14"

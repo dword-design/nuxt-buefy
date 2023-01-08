@@ -26,7 +26,7 @@
     "@dword-design/buefy-svg-icon": "1.0.0",
     "buefy": "^0.9.21",
     "nuxt-push-plugins": "^2.0.0",
-    "sass-stretched-link": "^1.0.2",
+    "sass-stretched-link": "^2.0.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {

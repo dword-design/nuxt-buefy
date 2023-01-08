@@ -13473,10 +13473,10 @@ sass-graph@^4.0.1:
     scss-tokenizer "^0.4.3"
     yargs "^17.2.1"
 
-sass-stretched-link@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/sass-stretched-link/-/sass-stretched-link-1.0.3.tgz#0e12dfe2c51eaf7afc74eefd43052f981feeb53d"
-  integrity sha512-zXYlLRMug0qA6SONWJWZg09gQCON2+M6pHyuUWfansC4PIWuARKj2IjI+4rYtbhsuC5bkqkUnaeL0+RhP7ShYw==
+sass-stretched-link@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/sass-stretched-link/-/sass-stretched-link-2.0.0.tgz#8baefa46a4486c05ee40dcf3213f402e8e37a40f"
+  integrity sha512-OWAWXQswSl68YCSxv3Fj65yKnqsDtz/G2E/7X06xGa/7OU54QjE0iX0cdwHk0Pn/IIo/Eu5xkRrMW91X82Qamw==
 
 sass@^1.29.0:
   version "1.57.1"

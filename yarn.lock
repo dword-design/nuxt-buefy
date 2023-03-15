@@ -1534,12 +1534,11 @@
     xvfb "^0.4.0"
 
 "@dword-design/tester@^2.0.11":
-  version "2.0.11"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester/-/tester-2.0.11.tgz#a422b642c34e01bdb04c9ca873d84a3f00333c46"
-  integrity sha512-u79B7flY9nCHILIw7WF/M7mJw8VjGb3QKAjmh+ecxjiSi+LXuIOy4QXTxM18qNIKRTu3oJV8DEg6WMVp+fCdIg==
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester/-/tester-2.0.12.tgz#58f6d81aff29368367bbb86cae4b44e043092a6b"
+  integrity sha512-nf3lUQ5jUEQwzp5AhdfPPZMzFFUyWaEGjbuqwZ51pe4uLlrf2/hqaCIkXpaSLJ1ev/6FbV6/2Ax+FeyoVTCNMw==
   dependencies:
     "@dword-design/functions" "^4.0.0"
-    promise-sequential "^1.1.1"
 
 "@endemolshinegroup/cosmiconfig-typescript-loader@^3.0.2":
   version "3.0.2"
@@ -12705,11 +12704,6 @@ promise-retry@^2.0.1:
     err-code "^2.0.2"
     retry "^0.12.0"
 
-promise-sequential@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/promise-sequential/-/promise-sequential-1.1.1.tgz#f79e8950ef86e7a7a85bf320452643592f6d2fb2"
-  integrity sha512-gpziThEJPnPEeaHNqjy9f4PE1JwXb07fX3dz+41nhALpIAaEI9VZU8Q89eyBBAa2xAhnz0KgUTDtCA7FZYbZQQ==
-
 promzard@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/promzard/-/promzard-0.3.0.tgz#26a5d6ee8c7dee4cb12208305acfb93ba382a9ee"
@@ -14622,9 +14616,9 @@ tiny-relative-date@*:
   integrity sha512-MOQHpzllWxDCHHaDno30hhLfbouoYlOI8YlMNtvKe1zXbjEVhbcEovQxvZrPvtiYW630GQDoMMarCnjfyfHA+A==
 
 tinycolor2@^1.4.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.5.1.tgz#df11c5f14e6b7fdd8a9c27c2c6a5f2565fb776b7"
-  integrity sha512-BHlrsGeYN2OpkRpfAgkEwCMu6w8Quq8JkK/mp4c55NZP7OwceJObR1CPZt62TqiA0Y3J5pwuDX+fXDqc35REtg==
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.6.0.tgz#f98007460169b0263b97072c5ae92484ce02d09e"
+  integrity sha512-XPaBkWQJdsf3pLKJV9p4qN/S+fm2Oj8AIPo1BTUhg5oxkvm9+SVEGFdhyOz7tTdUTfvxMiAs4sp6/eZO2Ew+pw==
 
 title-case@^2.1.0:
   version "2.1.1"

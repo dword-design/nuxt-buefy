@@ -1,3 +1,10 @@
+## [2.0.22](https://github.com/dword-design/nuxt-buefy/compare/v2.0.21...v2.0.22) (2023-03-16)
+
+
+### Bug Fixes
+
+* update dependency nuxt to v2.16.2 ([040968a](https://github.com/dword-design/nuxt-buefy/commit/040968a8976f3e5d4e94588f30d543b1a7a2231b))
+
 ## [2.0.21](https://github.com/dword-design/nuxt-buefy/compare/v2.0.20...v2.0.21) (2023-03-16)
 
 

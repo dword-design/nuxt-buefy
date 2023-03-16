@@ -1,3 +1,10 @@
+## [2.0.18](https://github.com/dword-design/nuxt-buefy/compare/v2.0.17...v2.0.18) (2023-03-16)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/puppeteer to v6.0.3 ([71c652e](https://github.com/dword-design/nuxt-buefy/commit/71c652e25737372b6a636b56994c92bdd1cc1299))
+
 ## [2.0.17](https://github.com/dword-design/nuxt-buefy/compare/v2.0.16...v2.0.17) (2023-03-15)
 
 

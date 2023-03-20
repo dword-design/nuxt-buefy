@@ -1,3 +1,10 @@
+## [2.0.32](https://github.com/dword-design/nuxt-buefy/compare/v2.0.31...v2.0.32) (2023-03-20)
+
+
+### Bug Fixes
+
+* update dependency nuxt-push-plugins to v2.1.9 ([28bb304](https://github.com/dword-design/nuxt-buefy/commit/28bb30431d4059d7d1d41206ab6b1919961c3dca))
+
 ## [2.0.31](https://github.com/dword-design/nuxt-buefy/compare/v2.0.30...v2.0.31) (2023-03-20)
 
 

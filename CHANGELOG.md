@@ -1,3 +1,10 @@
+## [2.0.34](https://github.com/dword-design/nuxt-buefy/compare/v2.0.33...v2.0.34) (2023-03-20)
+
+
+### Bug Fixes
+
+* update dependency fs-extra to v11.1.1 ([1591b0a](https://github.com/dword-design/nuxt-buefy/commit/1591b0a2f26d9ba9c752a3f6521e09d4bf1b8d21))
+
 ## [2.0.33](https://github.com/dword-design/nuxt-buefy/compare/v2.0.32...v2.0.33) (2023-03-20)
 
 

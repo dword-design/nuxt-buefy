@@ -1,3 +1,10 @@
+## [2.0.38](https://github.com/dword-design/nuxt-buefy/compare/v2.0.37...v2.0.38) (2023-03-24)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-puppeteer to v2.1.43 ([9457725](https://github.com/dword-design/nuxt-buefy/commit/9457725a46137a6f041cae41ab9ae668b0f4fe35))
+
 ## [2.0.37](https://github.com/dword-design/nuxt-buefy/compare/v2.0.36...v2.0.37) (2023-03-21)
 
 

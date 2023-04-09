@@ -14,10 +14,10 @@ export default tester(
         await fs.outputFile(
           'pages/index.vue',
           endent`
-          <template>
-            <b-button class="foo">foo</b-button>
-          </template>
-        `
+            <template>
+              <b-button class="foo">foo</b-button>
+            </template>
+          `,
         )
 
         const nuxt = new Nuxt({
@@ -38,5 +38,5 @@ export default tester(
       })
     },
   },
-  [testerPluginPuppeteer()]
+  [testerPluginPuppeteer()],
 )

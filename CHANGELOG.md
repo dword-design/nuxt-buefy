@@ -1,3 +1,10 @@
+## [2.0.46](https://github.com/dword-design/nuxt-buefy/compare/v2.0.45...v2.0.46) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester to v2.0.14 ([73bb5f3](https://github.com/dword-design/nuxt-buefy/commit/73bb5f357a41d5c3582753dfa7a33dcdf0c2cc3b))
+
 ## [2.0.45](https://github.com/dword-design/nuxt-buefy/compare/v2.0.44...v2.0.45) (2023-04-09)
 
 

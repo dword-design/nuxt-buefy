@@ -11325,9 +11325,9 @@ nth-check@^2.0.1:
     boolbase "^1.0.0"
 
 nuxt-push-plugins@^2.0.0:
-  version "2.1.17"
-  resolved "https://registry.yarnpkg.com/nuxt-push-plugins/-/nuxt-push-plugins-2.1.17.tgz#5358c9bf891200adf10bd51a889e9a2b0ef0ac49"
-  integrity sha512-NkeW/kg8J1/yTvLHVkYfQk60Rq2c5jQOcIo/asEENmEPZ5JtNY+SyOPhmOWYoy7O5ozGfI3K8zmbpGJ7LSKnPw==
+  version "2.1.21"
+  resolved "https://registry.yarnpkg.com/nuxt-push-plugins/-/nuxt-push-plugins-2.1.21.tgz#4b394c2b3e093bf89efad5bfa608d97487cc497f"
+  integrity sha512-vheVv5BBtFHrqMyI8kD3Rr8GdMTaIXZH9z2aXgjws/uT/+ETcPn0LYTr+1RqP4FDPyi+fQI8w8+qA9umQaB0Ww==
   dependencies:
     "@dword-design/functions" "^4.0.0"
     "@nuxt/kit" "^3.0.0"

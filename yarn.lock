@@ -6007,9 +6007,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.361"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.361.tgz#010ddd5e623470ab9d1bf776b009d11c3669a4e3"
-  integrity sha512-VocVwjPp05HUXzf3xmL0boRn5b0iyqC7amtDww84Jb1QJNPBc7F69gJyEeXRoriLBC4a5pSyckdllrXAg4mmRA==
+  version "1.4.364"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.364.tgz#da9702efd0101627f250f5e90a90a829feb41d7f"
+  integrity sha512-v6GxKdF57qfweXSfnne9nw1vS/86G4+UtscEe+3HQF+zhhrjAY4+9A4gstIQO56gyZvVrt9MZwt9aevCz/tohQ==
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -11334,9 +11334,9 @@ nth-check@^2.0.1:
     boolbase "^1.0.0"
 
 nuxt-push-plugins@^2.0.0:
-  version "2.1.26"
-  resolved "https://registry.yarnpkg.com/nuxt-push-plugins/-/nuxt-push-plugins-2.1.26.tgz#981ec3e4a9ffda08e4bae9623c219d99be4ce708"
-  integrity sha512-py50PAs547Khws3g6UyL4mt0Sa3J5WZu1OuCTnC0LefcYSO35M/hmqenBWuTpOkTSkBA31mWtx/CSpqbNH2FYA==
+  version "2.1.27"
+  resolved "https://registry.yarnpkg.com/nuxt-push-plugins/-/nuxt-push-plugins-2.1.27.tgz#b28f16f32c0ae04fdb1c2a3bd8183eef12224c5e"
+  integrity sha512-umqrI05uIq8ZZIWf2wqWDa1ZBFHydf1Ku8nPrK17OkHl1v7y6xsSW2YR0AJaoD4xSQ1npcMH69kV9NwfnTu8Lw==
   dependencies:
     "@dword-design/functions" "^4.0.0"
     "@nuxt/kit" "^3.0.0"

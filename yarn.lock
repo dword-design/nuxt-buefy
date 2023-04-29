@@ -1652,10 +1652,10 @@
   resolved "https://registry.yarnpkg.com/@dword-design/buefy-addons/-/buefy-addons-2.0.11.tgz#5a673338a6fc38cef792539bdfa2bac207398ee6"
   integrity sha512-e9mxdZzQwzsnKUsyntawawKmNtUsMJVjpuNHysGBafr2ZJW0V78l19cpCDwQP6dS8hC5HqGDInODpY9khSnvIQ==
 
-"@dword-design/buefy-svg-icon@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@dword-design/buefy-svg-icon/-/buefy-svg-icon-1.0.0.tgz#bbad9530a83aa9e308548da0cefadac34dcbeda1"
-  integrity sha512-MGdXuUhqD1j/WetEQKcN62EjGtxuQnYnuYEPoMEqR2BHvpud6mYuBV8VMwOyVpP1EW4RsyDaR8Ca+B5/4JCBVg==
+"@dword-design/buefy-svg-icon@1.0.38":
+  version "1.0.38"
+  resolved "https://registry.yarnpkg.com/@dword-design/buefy-svg-icon/-/buefy-svg-icon-1.0.38.tgz#0db21917b40da5b1ba79794184e3325708a8c4f4"
+  integrity sha512-iZk1foaf4Cml7pUThsQg+BvhvIWmWmg6bEic0eSInJvWoH0f7ZI9D1k7ukarwe7LRSbEEwqPtNTbp4OShS28wQ==
 
 "@dword-design/chdir@^2.0.0":
   version "2.1.4"

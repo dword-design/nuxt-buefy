@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@dword-design/buefy-addons": "^2.0.0",
-    "@dword-design/buefy-svg-icon": "1.0.0",
+    "@dword-design/buefy-svg-icon": "2.0.0",
     "buefy": "^0.9.21",
     "nuxt-push-plugins": "^2.0.0",
     "sass-stretched-link": "^1.0.2",

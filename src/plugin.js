@@ -1,10 +1,13 @@
-import AddonsPlugin from '@dword-design/buefy-addons'
+import BuefyAddons from '@dword-design/buefy-addons'
 import SvgIcon from '@dword-design/buefy-svg-icon'
 import Buefy from 'buefy'
-import Vue from 'vue'
 
-Vue.use(Buefy, {
-  defaultIconComponent: SvgIcon,
-  defaultIconPack: null,
+import { defineNuxtPlugin } from '#imports'
+
+export default defineNuxtPlugin(nuxtApp => {
+  nuxtApp.vueApp.use(Buefy, {
+    defaultIconComponent: SvgIcon,
+    defaultIconPack: undefined,
+  })
+  nuxtApp.vueApp.use(BuefyAddons)
 })
-Vue.use(AddonsPlugin)

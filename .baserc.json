@@ -1,5 +1,15 @@
 {
   "name": "@dword-design/node",
-  "supportedNodeVersions": [14, 16],
-  "testInContainer": true
+  "nodeVersion": 18,
+  "supportedNodeVersions": [16, 18],
+  "testInContainer": true,
+  "eslintConfig": {
+    "extends": "@dword-design/eslint-config",
+    "rules": {
+      "import/no-unresolved": ["error", { "ignore": ["#imports"] }]
+    },
+    "globals": {
+      "$fetch": "readonly"
+    }
+  }
 }

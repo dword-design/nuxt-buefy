@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/nuxt-buefy/compare/v2.0.77...v3.0.0) (2023-05-20)
+
+
+### Bug Fixes
+
+* update dependency nuxt to v3 ([#91](https://github.com/dword-design/nuxt-buefy/issues/91)) ([01131b2](https://github.com/dword-design/nuxt-buefy/commit/01131b25a4b2306c33ff65d7d42fa6e9f188d84e))
+
+
+### BREAKING CHANGES
+
+* drop node 14, vue 3
+
 ## [2.0.77](https://github.com/dword-design/nuxt-buefy/compare/v2.0.76...v2.0.77) (2023-04-29)
 
 

@@ -14,6 +14,7 @@ export default tester(
         await outputFiles({
           'nuxt.config.js': endent`
             export default {
+              css: ['@/../src/style.scss'],
               modules: ['../src/index.js'],
             }
           `,

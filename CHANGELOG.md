@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/dword-design/nuxt-buefy/compare/v3.0.0...v3.0.1) (2023-05-26)
+
+
+### Bug Fixes
+
+* foo ([90017fe](https://github.com/dword-design/nuxt-buefy/commit/90017fe3be74f13017567e5f9f493d8ab3ebb8a6))
+
 # [3.0.0](https://github.com/dword-design/nuxt-buefy/compare/v2.0.77...v3.0.0) (2023-05-20)
 
 

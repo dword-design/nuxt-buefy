@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/dword-design/nuxt-buefy/compare/v3.0.1...v3.0.2) (2023-05-29)
+
+
+### Bug Fixes
+
+* fix style export ([ee90b11](https://github.com/dword-design/nuxt-buefy/commit/ee90b11f96a4d0e21f286f182a439ffa473c6ef8))
+
 ## [3.0.1](https://github.com/dword-design/nuxt-buefy/compare/v3.0.0...v3.0.1) (2023-05-26)
 
 

@@ -8,7 +8,7 @@
   "type": "module",
   "exports": {
     ".": "./dist/index.js",
-    "style.scss": "./dist/style.scss"
+    "./style.scss": "./dist/style.scss"
   },
   "main": "dist/index.js",
   "files": [

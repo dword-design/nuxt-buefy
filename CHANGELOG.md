@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/dword-design/nuxt-buefy/compare/v3.0.2...v3.0.3) (2023-06-06)
+
+
+### Bug Fixes
+
+* update package.json ([bd0b04d](https://github.com/dword-design/nuxt-buefy/commit/bd0b04de9afcaac58fc929a246789a067ae4538f))
+
 ## [3.0.2](https://github.com/dword-design/nuxt-buefy/compare/v3.0.1...v3.0.2) (2023-05-29)
 
 

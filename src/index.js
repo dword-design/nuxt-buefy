@@ -1,8 +1,6 @@
-import { createRequire } from 'module'
-import nuxtPushPlugins from 'nuxt-push-plugins'
+import { addPlugin, createResolver } from '@nuxt/kit'
 
-const _require = createRequire(import.meta.url)
+const resolver = createResolver(import.meta.url)
 
-export default function () {
-  nuxtPushPlugins(this, _require.resolve('./plugin.js'))
-}
+export default () =>
+  addPlugin(resolver.resolve('./plugin.js'), { append: true })

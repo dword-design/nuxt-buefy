@@ -1,42 +1,71 @@
 import { endent } from '@dword-design/functions'
 import tester from '@dword-design/tester'
 import testerPluginPuppeteer from '@dword-design/tester-plugin-puppeteer'
+import testerPluginTmpDir from '@dword-design/tester-plugin-tmp-dir'
 import { execaCommand } from 'execa'
 import nuxtDevReady from 'nuxt-dev-ready'
 import outputFiles from 'output-files'
+import portReady from 'port-ready'
 import kill from 'tree-kill-promise'
-import withLocalTmpDir from 'with-local-tmp-dir'
 
 export default tester(
   {
-    works() {
-      return withLocalTmpDir(async () => {
-        await outputFiles({
-          'nuxt.config.js': endent`
-            export default {
-              css: ['@/../src/style.scss'],
-              modules: ['../src/index.js'],
-            }
-          `,
-          'pages/index.vue': endent`
-            <template>
-              <b-button class="foo">foo</b-button>
-            </template>
-          `,
-        })
-
-        const nuxt = execaCommand('nuxt dev')
-        try {
-          await nuxtDevReady()
-          await this.page.goto('http://localhost:3000')
-
-          const button = await this.page.waitForSelector('.foo')
-          expect(await button.screenshot()).toMatchImageSnapshot(this)
-        } finally {
-          await kill(nuxt.pid)
-        }
+    async 'duplicate elements issue in production'() {
+      await outputFiles({
+        'nuxt.config.js': endent`
+          export default {
+            css: ['@/../src/style.scss'],
+            modules: ['../src/index.js'],
+          }
+        `,
+        'pages/index.vue': endent`
+          <template>
+            <b-navbar>
+              <template #brand><span /></template>
+            </b-navbar>
+            <div class="foo" />
+          </template>
+        `,
       })
+      await execaCommand('nuxt build')
+
+      const nuxt = execaCommand('nuxt start')
+      try {
+        await portReady(3000)
+        await this.page.goto('http://localhost:3000')
+
+        const containers = await this.page.$$('.foo')
+        expect(containers.length).toEqual(1)
+      } finally {
+        await kill(nuxt.pid)
+      }
+    },
+    async works() {
+      await outputFiles({
+        'nuxt.config.js': endent`
+          export default {
+            css: ['@/../src/style.scss'],
+            modules: ['../src/index.js'],
+          }
+        `,
+        'pages/index.vue': endent`
+          <template>
+            <b-button class="foo">foo</b-button>
+          </template>
+        `,
+      })
+
+      const nuxt = execaCommand('nuxt dev')
+      try {
+        await nuxtDevReady()
+        await this.page.goto('http://localhost:3000')
+
+        const button = await this.page.waitForSelector('.foo')
+        expect(await button.screenshot()).toMatchImageSnapshot(this)
+      } finally {
+        await kill(nuxt.pid)
+      }
     },
   },
-  [testerPluginPuppeteer()],
+  [testerPluginPuppeteer(), testerPluginTmpDir()],
 )

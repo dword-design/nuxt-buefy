@@ -1,3 +1,10 @@
+## [3.0.4](https://github.com/dword-design/nuxt-buefy/compare/v3.0.3...v3.0.4) (2023-06-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v5 ([#135](https://github.com/dword-design/nuxt-buefy/issues/135)) ([c6d84cd](https://github.com/dword-design/nuxt-buefy/commit/c6d84cd62b332067728781507c0032fe03ae6614))
+
 ## [3.0.3](https://github.com/dword-design/nuxt-buefy/compare/v3.0.2...v3.0.3) (2023-06-06)
 
 

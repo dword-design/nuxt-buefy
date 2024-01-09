@@ -1,7 +1,5 @@
 {
   "name": "@dword-design/node",
-  "nodeVersion": 18,
-  "supportedNodeVersions": [16, 18],
   "testInContainer": true,
   "eslintConfig": {
     "extends": "@dword-design/eslint-config",

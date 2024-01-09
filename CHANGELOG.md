@@ -1,3 +1,19 @@
+# [4.0.0](https://github.com/dword-design/nuxt-buefy/compare/v3.0.5...v4.0.0) (2024-01-09)
+
+
+### Bug Fixes
+
+* fix elements in programmatically opened modals ([f7e80e7](https://github.com/dword-design/nuxt-buefy/commit/f7e80e7fda86987f3c14a3c83d189deb0f0d0d15))
+* lock file maintenance ([#172](https://github.com/dword-design/nuxt-buefy/issues/172)) ([e2fa902](https://github.com/dword-design/nuxt-buefy/commit/e2fa90210842ee269ad3f76541e23ee35f072558))
+* trigger release ([ab4320a](https://github.com/dword-design/nuxt-buefy/commit/ab4320aae455c763bdc3f343bc64a4ca239d19c7))
+* trigger release ([a2d82b1](https://github.com/dword-design/nuxt-buefy/commit/a2d82b1e98ac8c4a19edb971e988a1f5d29ca168))
+* trigger release ([bf18e1b](https://github.com/dword-design/nuxt-buefy/commit/bf18e1bd499c3ccfccb841fb97d978d9894701c1))
+
+
+### BREAKING CHANGES
+
+* node.js >= 18
+
 ## [3.0.5](https://github.com/dword-design/nuxt-buefy/compare/v3.0.4...v3.0.5) (2023-06-09)
 
 

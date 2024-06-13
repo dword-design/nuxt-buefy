@@ -1,3 +1,12 @@
+## [4.0.1](https://github.com/dword-design/nuxt-buefy/compare/v4.0.0...v4.0.1) (2024-06-13)
+
+
+### Bug Fixes
+
+* delete babelrc ([58c98e3](https://github.com/dword-design/nuxt-buefy/commit/58c98e37d74bad08f26e50c9864b97d303794c19))
+* lock file maintenance ([#177](https://github.com/dword-design/nuxt-buefy/issues/177)) ([6ba56ec](https://github.com/dword-design/nuxt-buefy/commit/6ba56ecb6ce16e752c5fe7ccd3c38150a6874135))
+* remove svg style ([ffcc5da](https://github.com/dword-design/nuxt-buefy/commit/ffcc5da3d2ed8889352f958f50ee773a4fe92b65))
+
 # [4.0.0](https://github.com/dword-design/nuxt-buefy/compare/v3.0.5...v4.0.0) (2024-01-09)
 
 

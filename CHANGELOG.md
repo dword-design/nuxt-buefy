@@ -1,3 +1,10 @@
+## [4.0.4](https://github.com/dword-design/nuxt-buefy/compare/v4.0.3...v4.0.4) (2024-06-21)
+
+
+### Bug Fixes
+
+* trigger release ([c14c33e](https://github.com/dword-design/nuxt-buefy/commit/c14c33e4e15e1f0b091efbb3fe15c7e140888937))
+
 ## [4.0.3](https://github.com/dword-design/nuxt-buefy/compare/v4.0.2...v4.0.3) (2024-06-21)
 
 

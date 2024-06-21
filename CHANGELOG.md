@@ -1,3 +1,10 @@
+## [4.0.3](https://github.com/dword-design/nuxt-buefy/compare/v4.0.2...v4.0.3) (2024-06-21)
+
+
+### Bug Fixes
+
+* replace fork ([#185](https://github.com/dword-design/nuxt-buefy/issues/185)) ([216e1c8](https://github.com/dword-design/nuxt-buefy/commit/216e1c8d27cd312ddb4af708858f957ece866501))
+
 ## [4.0.2](https://github.com/dword-design/nuxt-buefy/compare/v4.0.1...v4.0.2) (2024-06-13)
 
 

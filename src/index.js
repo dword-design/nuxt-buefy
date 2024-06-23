@@ -2,4 +2,5 @@ import { addPlugin, createResolver } from '@nuxt/kit'
 
 const resolver = createResolver(import.meta.url)
 
-export default () => addPlugin(resolver.resolve('./plugin.js'), { append: true })
+export default () =>
+  addPlugin(resolver.resolve('./plugin.js'), { append: true })

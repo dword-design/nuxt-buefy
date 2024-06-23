@@ -1,3 +1,11 @@
+## [4.1.1](https://github.com/dword-design/nuxt-buefy/compare/v4.1.0...v4.1.1) (2024-06-23)
+
+
+### Bug Fixes
+
+* foo ([83d360a](https://github.com/dword-design/nuxt-buefy/commit/83d360a5a202dc21a2568adb6dcaa17a16a0c090))
+* revert changes ([7e35b26](https://github.com/dword-design/nuxt-buefy/commit/7e35b263b64bb5cd80bdbf72f539334274f2b28c))
+
 # [4.1.0](https://github.com/dword-design/nuxt-buefy/compare/v4.0.4...v4.1.0) (2024-06-23)
 
 

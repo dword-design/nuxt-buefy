@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/dword-design/nuxt-buefy/compare/v4.0.4...v4.1.0) (2024-06-23)
+
+
+### Features
+
+* auto import ([#187](https://github.com/dword-design/nuxt-buefy/issues/187)) ([f06e245](https://github.com/dword-design/nuxt-buefy/commit/f06e2454b7e93a49f67361b4a7e5d586f97d6d77))
+
 ## [4.0.4](https://github.com/dword-design/nuxt-buefy/compare/v4.0.3...v4.0.4) (2024-06-21)
 
 

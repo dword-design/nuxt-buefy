@@ -1,12 +1,12 @@
-import { endent } from '@dword-design/functions'
-import tester from '@dword-design/tester'
-import testerPluginPuppeteer from '@dword-design/tester-plugin-puppeteer'
-import testerPluginTmpDir from '@dword-design/tester-plugin-tmp-dir'
-import { execaCommand } from 'execa'
-import nuxtDevReady from 'nuxt-dev-ready'
-import outputFiles from 'output-files'
-import portReady from 'port-ready'
-import kill from 'tree-kill-promise'
+import { endent } from '@dword-design/functions';
+import tester from '@dword-design/tester';
+import testerPluginPuppeteer from '@dword-design/tester-plugin-puppeteer';
+import testerPluginTmpDir from '@dword-design/tester-plugin-tmp-dir';
+import { execaCommand } from 'execa';
+import nuxtDevReady from 'nuxt-dev-ready';
+import outputFiles from 'output-files';
+import portReady from 'port-ready';
+import kill from 'tree-kill-promise';
 
 export default tester(
   {
@@ -26,18 +26,18 @@ export default tester(
             <div class="foo" />
           </template>
         `,
-      })
-      await execaCommand('nuxt build')
+      });
 
-      const nuxt = execaCommand('nuxt start')
+      await execaCommand('nuxt build');
+      const nuxt = execaCommand('nuxt start');
+
       try {
-        await portReady(3000)
-        await this.page.goto('http://localhost:3000')
-
-        const containers = await this.page.$$('.foo')
-        expect(containers.length).toEqual(1)
+        await portReady(3000);
+        await this.page.goto('http://localhost:3000');
+        const containers = await this.page.$$('.foo');
+        expect(containers.length).toEqual(1);
       } finally {
-        await kill(nuxt.pid)
+        await kill(nuxt.pid);
       }
     },
     async works() {
@@ -53,19 +53,19 @@ export default tester(
             <b-button class="foo">foo</b-button>
           </template>
         `,
-      })
+      });
 
-      const nuxt = execaCommand('nuxt dev')
+      const nuxt = execaCommand('nuxt dev');
+
       try {
-        await nuxtDevReady()
-        await this.page.goto('http://localhost:3000')
-
-        const button = await this.page.waitForSelector('.foo')
-        expect(await button.screenshot()).toMatchImageSnapshot(this)
+        await nuxtDevReady();
+        await this.page.goto('http://localhost:3000');
+        const button = await this.page.waitForSelector('.foo');
+        expect(await button.screenshot()).toMatchImageSnapshot(this);
       } finally {
-        await kill(nuxt.pid)
+        await kill(nuxt.pid);
       }
     },
   },
   [testerPluginPuppeteer(), testerPluginTmpDir()],
-)
+);

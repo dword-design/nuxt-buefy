@@ -1,6 +1,6 @@
-import { addPlugin, createResolver } from '@nuxt/kit'
+import { addPlugin, createResolver } from '@nuxt/kit';
 
-const resolver = createResolver(import.meta.url)
+const resolver = createResolver(import.meta.url);
 
 export default () =>
-  addPlugin(resolver.resolve('./plugin.js'), { append: true })
+  addPlugin(resolver.resolve('./plugin.js'), { append: true });

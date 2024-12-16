@@ -1,3 +1,10 @@
+## [4.1.2](https://github.com/dword-design/nuxt-buefy/compare/v4.1.1...v4.1.2) (2024-12-16)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#200](https://github.com/dword-design/nuxt-buefy/issues/200)) ([f56332b](https://github.com/dword-design/nuxt-buefy/commit/f56332b9a1f30b69f56f692de09a80c3c03abd29))
+
 ## [4.1.1](https://github.com/dword-design/nuxt-buefy/compare/v4.1.0...v4.1.1) (2024-06-23)
 
 

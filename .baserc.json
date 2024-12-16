@@ -9,5 +9,10 @@
     "globals": {
       "$fetch": "readonly"
     }
+  },
+  "depcheckConfig": {
+    "ignoreMatches": [
+      "playwright-chromium"
+    ]
   }
 }

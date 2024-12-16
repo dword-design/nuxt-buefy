@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@dword-design/buefy-addons": "^2.0.0",
-    "@dword-design/buefy-svg-icon": "^2.0.0",
+    "@dword-design/buefy-svg-icon": "^3.0.0",
     "@nuxt/kit": "^3.5.3",
     "buefy": "npm:@dword-design/ntohq-buefy-next",
     "bulma": "^0",
@@ -36,17 +36,18 @@
   "devDependencies": {
     "@dword-design/base": "^11.0.0",
     "@dword-design/functions": "^6.0.0",
-    "@dword-design/puppeteer": "^7.0.1",
     "@dword-design/tester": "^2.0.11",
-    "@dword-design/tester-plugin-puppeteer": "^3.0.3",
     "@dword-design/tester-plugin-tmp-dir": "^2.1.26",
     "execa": "^9.2.0",
     "nuxt": "^3.0.0",
     "nuxt-dev-ready": "^3.0.0",
     "output-files": "^2.0.28",
+    "playwright": "^1.49.1",
+    "playwright-chromium": "^1.49.1",
     "port-ready": "^0.1.0",
     "tree-kill-promise": "^3.0.14"
   },
+  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c",
   "engines": {
     "node": ">=18"
   },

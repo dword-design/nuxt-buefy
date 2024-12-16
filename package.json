@@ -30,7 +30,7 @@
     "@dword-design/buefy-svg-icon": "^3.0.0",
     "@nuxt/kit": "^3.5.3",
     "buefy": "npm:@dword-design/ntohq-buefy-next",
-    "bulma": "^0",
+    "bulma": "^1.0.0",
     "sass-stretched-link": "^2.0.53"
   },
   "devDependencies": {

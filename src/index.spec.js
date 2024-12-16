@@ -4,9 +4,9 @@ import testerPluginTmpDir from '@dword-design/tester-plugin-tmp-dir';
 import { execaCommand } from 'execa';
 import nuxtDevReady from 'nuxt-dev-ready';
 import outputFiles from 'output-files';
+import { chromium } from 'playwright';
 import portReady from 'port-ready';
 import kill from 'tree-kill-promise';
-import { chromium } from 'playwright';
 
 export default tester(
   {
@@ -67,13 +67,16 @@ export default tester(
       }
     },
   },
-  [testerPluginTmpDir(), {
-    async after() {
-      await this.browser.close();
+  [
+    testerPluginTmpDir(),
+    {
+      async after() {
+        await this.browser.close();
+      },
+      async before() {
+        this.browser = await chromium.launch();
+        this.page = await this.browser.newPage();
+      },
     },
-    async before() {
-      this.browser = await chromium.launch();
-      this.page = await this.browser.newPage();
-    },
-  },],
+  ],
 );

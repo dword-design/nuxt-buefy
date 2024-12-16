@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@dword-design/buefy-addons": "^2.0.0",
-    "@dword-design/buefy-svg-icon": "^2.0.0",
+    "@dword-design/buefy-svg-icon": "^3.0.0",
     "@nuxt/kit": "^3.5.3",
     "buefy": "npm:@dword-design/ntohq-buefy-next",
     "bulma": "^0",

@@ -1396,10 +1396,10 @@
   resolved "https://registry.yarnpkg.com/@dword-design/buefy-addons/-/buefy-addons-2.0.14.tgz#e934c18ff211e76da1087d5990a9cd05f8de3c58"
   integrity sha512-kkv5BV9FbZEFzzo9ZQ9igNj8/qGwfQPRPEFl8eEHry6nY572I3w3+8/eLyJZdIAFDT/WZyYu2351VrRBAE2G0w==
 
-"@dword-design/buefy-svg-icon@^2.0.0":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@dword-design/buefy-svg-icon/-/buefy-svg-icon-2.0.2.tgz#e5638f10bbe524511aa2c4a4b404a9a1066b4c67"
-  integrity sha512-NjYKPj6bQ0+x0FGu8CjWKQzgGXCAAluGMmWgAuzecQ1q9myIDPZkqyt4gEvNuCBpQWzTIKLWyH2y1Nyy7D7HVg==
+"@dword-design/buefy-svg-icon@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/buefy-svg-icon/-/buefy-svg-icon-3.0.0.tgz#fef7db51a852c4925da8dbcd4b224ca461165208"
+  integrity sha512-6ZSzdwJkSjt5IZA/9UTGZCQaP43CPxbNa4n2PAdaHWn1tfO6OoW0JvFT1rZ41k15zToROKxIebWHafQ3+RJe7Q==
 
 "@dword-design/chdir@^2.0.0":
   version "2.1.4"
@@ -9634,14 +9634,7 @@ load-json-file@^4.0.0:
     pify "^3.0.0"
     strip-bom "^3.0.0"
 
-load-pkg@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/load-pkg/-/load-pkg-4.0.0.tgz#f80a29aec2f6d02aadde714099fda4eea1b611f1"
-  integrity sha512-xS6uYdbUzHbwO5bExhtM8RsU6Z/fVEfZE4uZpWQOwVygLSUfXz7J97nGzJfZ+FFCZc0Weabn/wA3y1k9Q7Y4mw==
-  dependencies:
-    find-pkg "^2.0.0"
-
-"load-pkg@npm:@dword-design/load-pkg@^4":
+load-pkg@^4.0.0, "load-pkg@npm:@dword-design/load-pkg@^4":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@dword-design/load-pkg/-/load-pkg-4.0.0.tgz#201f76adeb44c64ed22d789591ab740573fe0a5b"
   integrity sha512-lZxKRusgIqSg2y4jLzZzMPWyhrGPGke3YYmAxj4SoJeUGV4CmvYyhJkJnfA7Yaov7GMXZi64nlhx8D809VDazg==

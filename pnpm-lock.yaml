@@ -18,8 +18,8 @@ importers:
         specifier: ^3.17.1
         version: 3.17.1(magicast@0.3.5)
       buefy:
-        specifier: npm:@dword-design/ntohq-buefy-next@^0.1.9
-        version: '@dword-design/ntohq-buefy-next@0.1.9(vue@3.5.13(typescript@5.8.3))'
+        specifier: npm:@dword-design/buefy-next-fork@^0.1.0
+        version: '@dword-design/buefy-next-fork@0.1.0(vue@3.5.13(typescript@5.8.3))'
       bulma:
         specifier: ^0.9.4
         version: 0.9.4
@@ -825,6 +825,11 @@ packages:
     resolution: {integrity: sha512-kkv5BV9FbZEFzzo9ZQ9igNj8/qGwfQPRPEFl8eEHry6nY572I3w3+8/eLyJZdIAFDT/WZyYu2351VrRBAE2G0w==}
     engines: {node: '>=16'}
 
+  '@dword-design/buefy-next-fork@0.1.0':
+    resolution: {integrity: sha512-3IahoOSX0hodsP2hCSfVNPAiHnvga6DQTbekU/bck+e57h94HlOmbzB8uECSYlBkINaO9ys/gc6YHvxN5/Iy0w==}
+    peerDependencies:
+      vue: ^3.0.0
+
   '@dword-design/buefy-svg-icon@3.0.0':
     resolution: {integrity: sha512-6ZSzdwJkSjt5IZA/9UTGZCQaP43CPxbNa4n2PAdaHWn1tfO6OoW0JvFT1rZ41k15zToROKxIebWHafQ3+RJe7Q==}
     engines: {node: '>=18'}
@@ -895,11 +900,6 @@ packages:
   '@dword-design/module-root@0.2.4':
     resolution: {integrity: sha512-ns0t/Fxwsf3Egva6SNEStZ/3TKTIgCJW4fGGtQoeAz3PWQRWumrqxTa3tM6dzU4w8thSi8dcaEjP6RRQJtvLhg==}
     engines: {node: '>= 14'}
-
-  '@dword-design/ntohq-buefy-next@0.1.9':
-    resolution: {integrity: sha512-Rhrkhu8QKCtin93ywnx1gHpDqI9TPab4KdQtjxBUlC2x/OkkH1a6UQ0qEltiInGeSXdViRFUwJL0TbBFlqO3Kw==}
-    peerDependencies:
-      vue: ^3.0.0
 
   '@dword-design/personal-data@2.0.3':
     resolution: {integrity: sha512-ufLKbxChE+oKnyDziyMvyiSfdTTaExXuq5u++/opEOgbN5CY+sw9BvAtqR5EbAhfNQhxbwo4jPfWhUkeEwDbwQ==}
@@ -9672,6 +9672,12 @@ snapshots:
 
   '@dword-design/buefy-addons@2.0.14': {}
 
+  '@dword-design/buefy-next-fork@0.1.0(vue@3.5.13(typescript@5.8.3))':
+    dependencies:
+      vue: 3.5.13(typescript@5.8.3)
+    optionalDependencies:
+      '@rollup/rollup-linux-x64-gnu': 4.6.1
+
   '@dword-design/buefy-svg-icon@3.0.0': {}
 
   '@dword-design/chdir@2.1.4': {}
@@ -9848,12 +9854,6 @@ snapshots:
       callsite: 1.0.0
       findup-sync: 0.4.3
       resolve-from: 5.0.0
-
-  '@dword-design/ntohq-buefy-next@0.1.9(vue@3.5.13(typescript@5.8.3))':
-    dependencies:
-      vue: 3.5.13(typescript@5.8.3)
-    optionalDependencies:
-      '@rollup/rollup-linux-x64-gnu': 4.6.1
 
   '@dword-design/personal-data@2.0.3':
     dependencies:

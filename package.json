@@ -29,7 +29,7 @@
     "@dword-design/buefy-addons": "^2.0.14",
     "@dword-design/buefy-svg-icon": "^3.0.0",
     "@nuxt/kit": "^3.17.1",
-    "buefy": "npm:@dword-design/ntohq-buefy-next@^0.1.9",
+    "buefy": "npm:@dword-design/buefy-next-fork@^0.1.0",
     "bulma": "^0.9.4",
     "sass-stretched-link": "^2.0.53"
   },

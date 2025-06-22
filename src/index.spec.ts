@@ -73,7 +73,9 @@ test('works', async ({ page }, testInfo) => {
   try {
     await nuxtDevReady(port);
     await page.goto(`http://localhost:${port}`);
-    await expect(page.locator('.foo')).toHaveScreenshot();
+    const button = page.locator('.foo');
+    await expect(button).toBeVisible();
+    await expect(button).toHaveScreenshot();
   } finally {
     await kill(nuxt.pid);
   }

@@ -1,18 +1,9 @@
 {
-  "name": "@dword-design/node",
-  "testInContainer": true,
-  "eslintConfig": {
-    "extends": "@dword-design/eslint-config",
-    "rules": {
-      "import/no-unresolved": ["error", { "ignore": ["#imports"] }]
-    },
-    "globals": {
-      "$fetch": "readonly"
-    }
-  },
   "depcheckConfig": {
     "ignoreMatches": [
-      "playwright-chromium"
+      "@playwright/browser-chromium"
     ]
-  }
+  },
+  "name": "@dword-design/nuxt-module",
+  "testInContainer": true
 }

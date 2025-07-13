@@ -47,7 +47,7 @@
     "get-port": "^7.1.0",
     "nuxt": "^3.17.1",
     "nuxt-dev-ready": "^3.0.0",
-    "output-files": "^2.0.32",
+    "output-files": "^3.0.0",
     "port-ready": "^0.1.0",
     "tree-kill-promise": "^3.0.14"
   },

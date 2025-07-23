@@ -4,11 +4,11 @@ import { ConfigProgrammatic } from 'buefy';
 
 import { defineNuxtPlugin } from '#imports';
 
-export default defineNuxtPlugin(nuxtApp => {
+export default defineNuxtPlugin(({ vueApp }) => {
   ConfigProgrammatic.setOptions({
     defaultIconComponent: SvgIcon,
     defaultIconPack: undefined,
   });
 
-  nuxtApp.vueApp.use(BuefyAddons);
+  vueApp.use(BuefyAddons);
 });

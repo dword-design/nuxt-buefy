@@ -45,7 +45,7 @@ test('duplicate elements issue in production', async ({ page }, testInfo) => {
   }
 });
 
-test('works', async ({ page }, testInfo) => {
+test.only('works', async ({ page }, testInfo) => {
   const cwd = testInfo.outputPath();
 
   await outputFiles(cwd, {
@@ -66,12 +66,13 @@ test('works', async ({ page }, testInfo) => {
 
   const nuxt = execaCommand('nuxt dev', {
     cwd,
-    env: { PORT: String(port) },
+    env: { PORT: String(port), NODE_ENV: '' },
     reject: false,
   });
 
   try {
     await nuxtDevReady(port);
+    console.log(port)
     await page.goto(`http://localhost:${port}`);
     const button = page.locator('.foo');
     await expect(button).toBeVisible();

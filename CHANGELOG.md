@@ -1,3 +1,10 @@
+## [5.0.1](https://github.com/dword-design/nuxt-buefy/compare/v5.0.0...v5.0.1) (2025-07-23)
+
+
+### Bug Fixes
+
+* re-add style export ([8237bad](https://github.com/dword-design/nuxt-buefy/commit/8237bada329261ef4b2c45f8f9ec8d73f63e0c88))
+
 # [5.0.0](https://github.com/dword-design/nuxt-buefy/compare/v4.1.4...v5.0.0) (2025-07-23)
 
 

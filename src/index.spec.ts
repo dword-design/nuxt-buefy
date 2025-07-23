@@ -32,7 +32,7 @@ test('duplicate elements issue in production', async ({ page }, testInfo) => {
 
   const nuxt = execaCommand('nuxt start', {
     cwd,
-    env: { PORT: port },
+    env: { PORT: String(port) },
     reject: false,
   });
 
@@ -49,7 +49,7 @@ test('works', async ({ page }, testInfo) => {
   const cwd = testInfo.outputPath();
 
   await outputFiles(cwd, {
-    'nuxt.config.js': endent`
+    'nuxt.config.ts': endent`
       export default {
         css: ['../../src/style.scss'],
         modules: ['../../src'],
@@ -66,7 +66,7 @@ test('works', async ({ page }, testInfo) => {
 
   const nuxt = execaCommand('nuxt dev', {
     cwd,
-    env: { PORT: port },
+    env: { PORT: String(port) },
     reject: false,
   });
 

@@ -1,11 +1,11 @@
 import BuefyAddons from '@dword-design/buefy-addons';
 import SvgIcon from '@dword-design/buefy-svg-icon';
-import Buefy from 'buefy';
+import { ConfigProgrammatic } from 'buefy';
 
 import { defineNuxtPlugin } from '#imports';
 
 export default defineNuxtPlugin(nuxtApp => {
-  nuxtApp.vueApp.use(Buefy, {
+  ConfigProgrammatic.setOptions({
     defaultIconComponent: SvgIcon,
     defaultIconPack: undefined,
   });

@@ -9,10 +9,7 @@
     "target": "ESNext"
   },
   "exclude": [
-    "**/*.spec.ts"
+    "test-results"
   ],
-  "extends": "./.nuxt/tsconfig.json",
-  "include": [
-    "src"
-  ]
+  "extends": "./.nuxt/tsconfig.json"
 }

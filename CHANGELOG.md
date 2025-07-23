@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/dword-design/nuxt-buefy/compare/v4.1.4...v5.0.0) (2025-07-23)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#214](https://github.com/dword-design/nuxt-buefy/issues/214)) ([7d9b044](https://github.com/dword-design/nuxt-buefy/commit/7d9b0448b4d554af7567f8480278d467970cba07))
+
+
+### BREAKING CHANGES
+
+* node.js >= 20
+
 ## [4.1.4](https://github.com/dword-design/nuxt-buefy/compare/v4.1.3...v4.1.4) (2025-06-22)
 
 

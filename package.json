@@ -12,7 +12,8 @@
         "default": "./dist/module.js",
         "types": "./dist/module.d.ts"
       }
-    }
+    },
+    "./style": "./dist/style.scss"
   },
   "main": "dist/module.js",
   "files": [

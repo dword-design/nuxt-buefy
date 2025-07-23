@@ -66,13 +66,13 @@ test.only('works', async ({ page }, testInfo) => {
 
   const nuxt = execaCommand('nuxt dev', {
     cwd,
-    env: { PORT: String(port), NODE_ENV: '' },
+    env: { NODE_ENV: '', PORT: String(port) },
     reject: false,
   });
 
   try {
     await nuxtDevReady(port);
-    console.log(port)
+    console.log(port);
     await page.goto(`http://localhost:${port}`);
     const button = page.locator('.foo');
     await expect(button).toBeVisible();

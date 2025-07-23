@@ -38,8 +38,8 @@ const ALL_COMPONENT_NAMES = {
   BRadio: true,
   BRate: true,
   BSelect: true,
-  BSkeleton: true,
   BSidebar: true,
+  BSkeleton: true,
   BSlider: true,
   BSnackbar: true,
   BSteps: true,
@@ -57,11 +57,7 @@ const ALL_COMPONENT_NAMES = {
 export default defineNuxtModule({
   setup: () => {
     for (const name of Object.keys(ALL_COMPONENT_NAMES)) {
-      addComponent({
-        export: name,
-        filePath: packageName`buefy`,
-        name,
-      });
+      addComponent({ export: name, filePath: packageName`buefy`, name });
     }
 
     addComponent({

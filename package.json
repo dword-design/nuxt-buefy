@@ -38,7 +38,7 @@
     "sass-stretched-link": "^2.0.53"
   },
   "devDependencies": {
-    "@dword-design/base": "^13.0.9",
+    "@dword-design/base": "^15.0.0",
     "@dword-design/base-config-nuxt-module": "^2.0.1",
     "@playwright/browser-chromium": "^1.53.1",
     "@playwright/test": "^1.53.1",

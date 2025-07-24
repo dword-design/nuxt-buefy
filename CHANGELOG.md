@@ -1,3 +1,10 @@
+## [5.0.3](https://github.com/dword-design/nuxt-buefy/compare/v5.0.2...v5.0.3) (2025-07-24)
+
+
+### Bug Fixes
+
+* add BTaglist ([55cadf2](https://github.com/dword-design/nuxt-buefy/commit/55cadf294cfa30b2c2de04fa5af088db8322817a))
+
 ## [5.0.2](https://github.com/dword-design/nuxt-buefy/compare/v5.0.1...v5.0.2) (2025-07-24)
 
 

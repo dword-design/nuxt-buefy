@@ -1,3 +1,10 @@
+## [5.0.2](https://github.com/dword-design/nuxt-buefy/compare/v5.0.1...v5.0.2) (2025-07-24)
+
+
+### Bug Fixes
+
+* add missing components ([bef3cda](https://github.com/dword-design/nuxt-buefy/commit/bef3cda5a2125458f351cb769ba52e264cd9bea3))
+
 ## [5.0.1](https://github.com/dword-design/nuxt-buefy/compare/v5.0.0...v5.0.1) (2025-07-23)
 
 

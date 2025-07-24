@@ -1,3 +1,51 @@
+## [5.0.1](https://github.com/dword-design/nuxt-buefy/compare/v5.0.0...v5.0.1) (2025-07-23)
+
+
+### Bug Fixes
+
+* re-add style export ([8237bad](https://github.com/dword-design/nuxt-buefy/commit/8237bada329261ef4b2c45f8f9ec8d73f63e0c88))
+
+# [5.0.0](https://github.com/dword-design/nuxt-buefy/compare/v4.1.4...v5.0.0) (2025-07-23)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#214](https://github.com/dword-design/nuxt-buefy/issues/214)) ([7d9b044](https://github.com/dword-design/nuxt-buefy/commit/7d9b0448b4d554af7567f8480278d467970cba07))
+
+
+### BREAKING CHANGES
+
+* node.js >= 20
+
+## [4.1.4](https://github.com/dword-design/nuxt-buefy/compare/v4.1.3...v4.1.4) (2025-06-22)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#212](https://github.com/dword-design/nuxt-buefy/issues/212)) ([cfc0cc6](https://github.com/dword-design/nuxt-buefy/commit/cfc0cc65d0c879cbb09e4fc0bf53184c5bb56433))
+
+## [4.1.3](https://github.com/dword-design/nuxt-buefy/compare/v4.1.2...v4.1.3) (2025-05-03)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#209](https://github.com/dword-design/nuxt-buefy/issues/209)) ([f1dd63d](https://github.com/dword-design/nuxt-buefy/commit/f1dd63d22feef3eaaf6750c378cbe6ea57f77f07))
+
+## [4.1.2](https://github.com/dword-design/nuxt-buefy/compare/v4.1.1...v4.1.2) (2024-12-16)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#200](https://github.com/dword-design/nuxt-buefy/issues/200)) ([f56332b](https://github.com/dword-design/nuxt-buefy/commit/f56332b9a1f30b69f56f692de09a80c3c03abd29))
+
+## [4.1.1](https://github.com/dword-design/nuxt-buefy/compare/v4.1.0...v4.1.1) (2024-06-23)
+
+
+### Bug Fixes
+
+* foo ([83d360a](https://github.com/dword-design/nuxt-buefy/commit/83d360a5a202dc21a2568adb6dcaa17a16a0c090))
+* revert changes ([7e35b26](https://github.com/dword-design/nuxt-buefy/commit/7e35b263b64bb5cd80bdbf72f539334274f2b28c))
+
 # [4.1.0](https://github.com/dword-design/nuxt-buefy/compare/v4.0.4...v4.1.0) (2024-06-23)
 
 

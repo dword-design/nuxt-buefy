@@ -51,6 +51,7 @@ const ALL_COMPONENT_NAMES = {
   BTable: true,
   BTabs: true,
   BTag: true,
+  BTaglist: true,
   BTaginput: true,
   BTimepicker: true,
   BToast: true,

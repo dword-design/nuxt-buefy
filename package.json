@@ -1,6 +1,6 @@
 {
   "name": "@dword-design/nuxt-buefy",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "repository": "dword-design/nuxt-buefy",
   "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
@@ -42,7 +42,7 @@
     "sass-stretched-link": "^2.0.53"
   },
   "devDependencies": {
-    "@dword-design/base": "^15.1.6",
+    "@dword-design/base": "^15.2.1",
     "@dword-design/base-config-nuxt-module": "^3.0.1",
     "@mdi/svg": "^7.4.47",
     "@playwright/browser-chromium": "^1.53.1",

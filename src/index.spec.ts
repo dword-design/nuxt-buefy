@@ -45,7 +45,7 @@ test('duplicate elements issue in production', async ({ page }, testInfo) => {
   }
 });
 
-test.only('works', async ({ page }, testInfo) => {
+test('works', async ({ page }, testInfo) => {
   const cwd = testInfo.outputPath();
 
   await outputFiles(cwd, {

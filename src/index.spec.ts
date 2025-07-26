@@ -72,7 +72,6 @@ test.only('works', async ({ page }, testInfo) => {
 
   try {
     await nuxtDevReady(port);
-    console.log(port);
     await page.goto(`http://localhost:${port}`);
     const button = page.locator('.foo');
     await expect(button).toBeVisible();

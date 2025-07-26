@@ -1,3 +1,10 @@
+## [5.0.5](https://github.com/dword-design/nuxt-buefy/compare/v5.0.4...v5.0.5) (2025-07-26)
+
+
+### Bug Fixes
+
+* test icons ([#223](https://github.com/dword-design/nuxt-buefy/issues/223)) ([1851b69](https://github.com/dword-design/nuxt-buefy/commit/1851b6997c03579ac12b77f17832906c5f669ce3))
+
 ## [5.0.4](https://github.com/dword-design/nuxt-buefy/compare/v5.0.3...v5.0.4) (2025-07-26)
 
 

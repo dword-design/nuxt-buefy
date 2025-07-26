@@ -6,6 +6,7 @@ import nuxtDevReady from 'nuxt-dev-ready';
 import outputFiles from 'output-files';
 import portReady from 'port-ready';
 import kill from 'tree-kill-promise';
+import packageName from 'depcheck-package-name';
 
 test('duplicate elements issue in production', async ({ page }, testInfo) => {
   const cwd = testInfo.outputPath();
@@ -45,7 +46,7 @@ test('duplicate elements issue in production', async ({ page }, testInfo) => {
   }
 });
 
-test.only('works', async ({ page }, testInfo) => {
+test('works', async ({ page }, testInfo) => {
   const cwd = testInfo.outputPath();
 
   await outputFiles(cwd, {
@@ -76,6 +77,52 @@ test.only('works', async ({ page }, testInfo) => {
     const button = page.locator('.foo');
     await expect(button).toBeVisible();
     await expect(button).toHaveScreenshot();
+  } finally {
+    await kill(nuxt.pid);
+  }
+});
+
+test.only('icon', async ({ page }, testInfo) => {
+  const cwd = testInfo.outputPath();
+
+  await outputFiles(cwd, {
+    'nuxt.config.ts': endent`
+      import viteSvgLoader from '${packageName`vite-svg-loader`}';
+
+      export default {
+        css: ['../../src/style.scss'],
+        modules: ['../../src'],
+        vite: {
+          plugins: [viteSvgLoader()],
+        }
+      }
+    `,
+    'pages/index.vue': endent`
+      <template>
+        <b-icon class="foo":icon="CheckIcon" />
+      </template>
+
+      <script setup lang="ts">
+      import CheckIcon from '${packageName`@mdi/svg`}/svg/check.svg?component';
+      </script>
+    `,
+  });
+
+  const port = await getPort();
+
+  const nuxt = execaCommand('nuxt dev', {
+    cwd,
+    env: { NODE_ENV: '', PORT: String(port) },
+    reject: false,
+    stdio: 'inherit',
+  });
+
+  try {
+    await nuxtDevReady(port);
+    await page.goto(`http://localhost:${port}`);
+    const icon = page.locator('.foo');
+    await expect(icon).toBeVisible();
+    await expect(icon).toHaveScreenshot();
   } finally {
     await kill(nuxt.pid);
   }

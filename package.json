@@ -38,6 +38,7 @@
     "@nuxt/kit": "^3.17.1",
     "buefy": "npm:@dword-design/buefy-next-fork@^0.1.0",
     "bulma": "^0.9.4",
+    "depcheck-package-name": "^4.0.0",
     "sass-stretched-link": "^2.0.53"
   },
   "devDependencies": {
@@ -46,7 +47,6 @@
     "@mdi/svg": "^7.4.47",
     "@playwright/browser-chromium": "^1.53.1",
     "@playwright/test": "^1.53.1",
-    "depcheck-package-name": "^4.0.0",
     "endent": "npm:@dword-design/endent@^1.4.1",
     "execa": "^9.5.2",
     "get-port": "^7.1.0",

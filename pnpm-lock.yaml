@@ -23,6 +23,9 @@ importers:
       bulma:
         specifier: ^0.9.4
         version: 0.9.4
+      depcheck-package-name:
+        specifier: ^4.0.0
+        version: 4.0.0
       sass-stretched-link:
         specifier: ^2.0.53
         version: 2.0.53
@@ -42,9 +45,6 @@ importers:
       '@playwright/test':
         specifier: ^1.53.1
         version: 1.54.1
-      depcheck-package-name:
-        specifier: ^4.0.0
-        version: 4.0.0
       endent:
         specifier: npm:@dword-design/endent@^1.4.1
         version: '@dword-design/endent@1.4.7'

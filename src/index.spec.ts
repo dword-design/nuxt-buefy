@@ -1,4 +1,5 @@
 import { expect, test } from '@playwright/test';
+import packageName from 'depcheck-package-name';
 import endent from 'endent';
 import { execaCommand } from 'execa';
 import getPort from 'get-port';
@@ -6,7 +7,6 @@ import nuxtDevReady from 'nuxt-dev-ready';
 import outputFiles from 'output-files';
 import portReady from 'port-ready';
 import kill from 'tree-kill-promise';
-import packageName from 'depcheck-package-name';
 
 test('duplicate elements issue in production', async ({ page }, testInfo) => {
   const cwd = testInfo.outputPath();
@@ -114,7 +114,6 @@ test.only('icon', async ({ page }, testInfo) => {
     cwd,
     env: { NODE_ENV: '', PORT: String(port) },
     reject: false,
-    stdio: 'inherit',
   });
 
   try {

@@ -3,7 +3,9 @@ import { ConfigProgrammatic } from 'buefy';
 
 import { defineNuxtPlugin } from '#imports';
 
-export default defineNuxtPlugin(() => ConfigProgrammatic.setOptions({
-  defaultIconComponent: SvgIcon,
-  defaultIconPack: undefined,
-}));
+export default defineNuxtPlugin(() =>
+  ConfigProgrammatic.setOptions({
+    defaultIconComponent: SvgIcon,
+    defaultIconPack: undefined,
+  }),
+);

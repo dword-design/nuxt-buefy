@@ -82,7 +82,7 @@ test('works', async ({ page }, testInfo) => {
   }
 });
 
-test.only('icon', async ({ page }, testInfo) => {
+test('icon', async ({ page }, testInfo) => {
   const cwd = testInfo.outputPath();
 
   await outputFiles(cwd, {

@@ -1,3 +1,11 @@
+## [5.0.4](https://github.com/dword-design/nuxt-buefy/compare/v5.0.3...v5.0.4) (2025-07-26)
+
+
+### Bug Fixes
+
+* remove test.only ([0a4331a](https://github.com/dword-design/nuxt-buefy/commit/0a4331aeefff0b4670f0b241088b16ca7dcf24e9))
+* update base ([048783d](https://github.com/dword-design/nuxt-buefy/commit/048783d95abbd9bef912e1cc97d8a3fc9fb4cc6e))
+
 ## [5.0.3](https://github.com/dword-design/nuxt-buefy/compare/v5.0.2...v5.0.3) (2025-07-24)
 
 

@@ -34,6 +34,7 @@ const ALL_COMPONENT_NAMES = {
   BMessage: true,
   BModal: true,
   BNavbar: true,
+  BNavbarItem: true,
   BNotification: true,
   BNumberinput: true,
   BPagination: true,

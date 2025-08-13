@@ -12,8 +12,8 @@ importers:
         specifier: ^2.0.14
         version: 2.0.14
       '@dword-design/buefy-svg-icon':
-        specifier: ^3.0.0
-        version: 3.0.0
+        specifier: ^4.0.0
+        version: 4.0.2(vue@3.5.18(typescript@5.8.3))
       '@nuxt/kit':
         specifier: ^3.17.1
         version: 3.17.7(magicast@0.3.5)
@@ -340,12 +340,15 @@ packages:
 
   '@dword-design/buefy-next-fork@0.1.0':
     resolution: {integrity: sha512-3IahoOSX0hodsP2hCSfVNPAiHnvga6DQTbekU/bck+e57h94HlOmbzB8uECSYlBkINaO9ys/gc6YHvxN5/Iy0w==}
+    deprecated: Use @dword-design/buefy-fork
     peerDependencies:
       vue: ^3.0.0
 
-  '@dword-design/buefy-svg-icon@3.0.0':
-    resolution: {integrity: sha512-6ZSzdwJkSjt5IZA/9UTGZCQaP43CPxbNa4n2PAdaHWn1tfO6OoW0JvFT1rZ41k15zToROKxIebWHafQ3+RJe7Q==}
-    engines: {node: '>=18'}
+  '@dword-design/buefy-svg-icon@4.0.2':
+    resolution: {integrity: sha512-WvHMfwIOlvuhxLFaN7vm7GIABymnP8CftHIPW9XeLrNla3ub7bfgT4AkOvkcwUsDrdMKauRn0SlEub8w0OKRbA==}
+    engines: {node: '>=20'}
+    peerDependencies:
+      vue: ^3
 
   '@dword-design/ci@5.0.0':
     resolution: {integrity: sha512-iU2ZNChtdYL51LJp016VCBmWzgRQAwdUKuJfDewfOJMQ4e2oHlzRW8tP2FB5Nh3VcgVMpbDMG70ZKgo2i4/E+A==}
@@ -7157,7 +7160,9 @@ snapshots:
     optionalDependencies:
       '@rollup/rollup-linux-x64-gnu': 4.6.1
 
-  '@dword-design/buefy-svg-icon@3.0.0': {}
+  '@dword-design/buefy-svg-icon@4.0.2(vue@3.5.18(typescript@5.8.3))':
+    dependencies:
+      vue: 3.5.18(typescript@5.8.3)
 
   '@dword-design/ci@5.0.0':
     dependencies:

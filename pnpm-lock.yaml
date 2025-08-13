@@ -340,6 +340,7 @@ packages:
 
   '@dword-design/buefy-next-fork@0.1.0':
     resolution: {integrity: sha512-3IahoOSX0hodsP2hCSfVNPAiHnvga6DQTbekU/bck+e57h94HlOmbzB8uECSYlBkINaO9ys/gc6YHvxN5/Iy0w==}
+    deprecated: Use @dword-design/buefy-fork
     peerDependencies:
       vue: ^3.0.0
 

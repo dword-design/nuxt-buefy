@@ -21,8 +21,8 @@ importers:
         specifier: npm:@dword-design/buefy-next-fork@^0.1.0
         version: '@dword-design/buefy-next-fork@0.1.0(vue@3.5.18(typescript@5.8.3))'
       bulma:
-        specifier: ^0.9.4
-        version: 0.9.4
+        specifier: ^1.0.0
+        version: 1.0.4
       depcheck-package-name:
         specifier: ^4.0.0
         version: 4.0.0
@@ -340,6 +340,7 @@ packages:
 
   '@dword-design/buefy-next-fork@0.1.0':
     resolution: {integrity: sha512-3IahoOSX0hodsP2hCSfVNPAiHnvga6DQTbekU/bck+e57h94HlOmbzB8uECSYlBkINaO9ys/gc6YHvxN5/Iy0w==}
+    deprecated: Use @dword-design/buefy-fork
     peerDependencies:
       vue: ^3.0.0
 
@@ -2099,8 +2100,8 @@ packages:
     resolution: {integrity: sha512-bkXY9WsVpY7CvMhKSR6pZilZu9Ln5WDrKVBUXf2S443etkmEO4V58heTecXcUIsNsi4Rx8JUO4NfX1IcQl4deg==}
     engines: {node: '>=18.20'}
 
-  bulma@0.9.4:
-    resolution: {integrity: sha512-86FlT5+1GrsgKbPLRRY7cGDg8fsJiP/jzTqXXVqiUZZ2aZT8uemEOHlU1CDU+TxklPEZ11HZNNWclRBBecP4CQ==}
+  bulma@1.0.4:
+    resolution: {integrity: sha512-Ffb6YGXDiZYX3cqvSbHWqQ8+LkX6tVoTcZuVB3lm93sbAVXlO0D6QlOTMnV6g18gILpAXqkG2z9hf9z4hCjz2g==}
 
   bundle-name@4.1.0:
     resolution: {integrity: sha512-tjwM5exMg6BGRI+kNmTntNsvdZS1X8BFYS6tnJ2hdH0kVxM6/eVZ2xy+FqStSWvYmtfFMDLIxurorHwDKfDz5Q==}
@@ -9137,7 +9138,7 @@ snapshots:
 
   builtin-modules@5.0.0: {}
 
-  bulma@0.9.4: {}
+  bulma@1.0.4: {}
 
   bundle-name@4.1.0:
     dependencies:

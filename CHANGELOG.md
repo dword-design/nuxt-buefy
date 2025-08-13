@@ -1,3 +1,10 @@
+## [5.0.6](https://github.com/dword-design/nuxt-buefy/compare/v5.0.5...v5.0.6) (2025-08-13)
+
+
+### Bug Fixes
+
+* add BNavbarItem ([ae36487](https://github.com/dword-design/nuxt-buefy/commit/ae3648767387a1f90e70dcd01757cdc0f195003b))
+
 ## [5.0.5](https://github.com/dword-design/nuxt-buefy/compare/v5.0.4...v5.0.5) (2025-07-26)
 
 

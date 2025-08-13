@@ -1,3 +1,10 @@
+## [5.0.7](https://github.com/dword-design/nuxt-buefy/compare/v5.0.6...v5.0.7) (2025-08-13)
+
+
+### Bug Fixes
+
+* add other programmatics ([d7c1cfc](https://github.com/dword-design/nuxt-buefy/commit/d7c1cfcd439623771916afe84cad24d4ac1c56c4))
+
 ## [5.0.6](https://github.com/dword-design/nuxt-buefy/compare/v5.0.5...v5.0.6) (2025-08-13)
 
 

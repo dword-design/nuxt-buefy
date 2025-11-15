@@ -3,9 +3,9 @@ import packageName from 'depcheck-package-name';
 import endent from 'endent';
 import { execaCommand } from 'execa';
 import getPort from 'get-port';
+import { waitForPort } from 'get-port-please';
 import nuxtDevReady from 'nuxt-dev-ready';
 import outputFiles from 'output-files';
-import portReady from 'port-ready';
 import kill from 'tree-kill-promise';
 
 test('duplicate elements issue in production', async ({ page }, testInfo) => {
@@ -38,11 +38,11 @@ test('duplicate elements issue in production', async ({ page }, testInfo) => {
   });
 
   try {
-    await portReady(port);
+    await waitForPort(port);
     await page.goto(`http://localhost:${port}`);
     await expect(page.locator('.foo')).toHaveCount(1);
   } finally {
-    await kill(nuxt.pid);
+    await kill(nuxt.pid!);
   }
 });
 
@@ -78,7 +78,7 @@ test('works', async ({ page }, testInfo) => {
     await expect(button).toBeVisible();
     await expect(button).toHaveScreenshot();
   } finally {
-    await kill(nuxt.pid);
+    await kill(nuxt.pid!);
   }
 });
 
@@ -123,6 +123,6 @@ test('icon', async ({ page }, testInfo) => {
     await expect(icon).toBeVisible();
     await expect(icon).toHaveScreenshot();
   } finally {
-    await kill(nuxt.pid);
+    await kill(nuxt.pid!);
   }
 });

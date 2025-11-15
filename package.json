@@ -8,10 +8,8 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": {
-        "default": "./dist/module.js",
-        "types": "./dist/module.d.ts"
-      }
+      "default": "./dist/module.js",
+      "types": "./dist/module.d.ts"
     },
     "./style": "./dist/style.scss"
   },
@@ -34,26 +32,26 @@
   },
   "dependencies": {
     "@dword-design/buefy-addons": "^2.0.14",
-    "@dword-design/buefy-svg-icon": "^3.0.0",
-    "@nuxt/kit": "^3.17.1",
-    "buefy": "npm:@dword-design/buefy-next-fork@^0.1.0",
+    "@dword-design/buefy-svg-icon": "^4.0.2",
+    "@nuxt/kit": "^3.20.1",
+    "buefy": "npm:@dword-design/buefy-fork@^1.0.0",
     "bulma": "^0.9.4",
-    "depcheck-package-name": "^4.0.0",
+    "depcheck-package-name": "^4.0.1",
     "sass-stretched-link": "^2.0.53"
   },
   "devDependencies": {
-    "@dword-design/base": "^15.2.1",
-    "@dword-design/base-config-nuxt-module": "^3.0.1",
+    "@dword-design/base": "^15.4.1",
+    "@dword-design/base-config-nuxt-module": "^3.0.5",
     "@mdi/svg": "^7.4.47",
-    "@playwright/browser-chromium": "^1.53.1",
-    "@playwright/test": "^1.53.1",
-    "endent": "npm:@dword-design/endent@^1.4.1",
-    "execa": "^9.5.2",
+    "@playwright/browser-chromium": "^1.56.1",
+    "@playwright/test": "^1.56.1",
+    "endent": "npm:@dword-design/endent@^1.4.7",
+    "execa": "^9.6.0",
     "get-port": "^7.1.0",
-    "nuxt": "^3.17.1",
+    "get-port-please": "^3.2.0",
+    "nuxt": "^3.20.1",
     "nuxt-dev-ready": "^5.0.1",
     "output-files": "^3.0.0",
-    "port-ready": "^0.1.0",
     "tree-kill-promise": "^4.0.0",
     "vite-svg-loader": "^5.1.0"
   },

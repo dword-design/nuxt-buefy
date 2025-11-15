@@ -31,7 +31,7 @@ importers:
         version: 2.0.53
     devDependencies:
       '@dword-design/base':
-        specifier: ^15.4.1
+        specifier: ^15.4.2
         version: 15.4.2(@types/node@24.10.1)(@typescript-eslint/parser@8.46.4(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.46.4(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-core@3.5.24)(esbuild@0.25.12)
       '@dword-design/base-config-nuxt-module':
         specifier: ^3.0.5

@@ -40,7 +40,7 @@
     "sass-stretched-link": "^2.0.53"
   },
   "devDependencies": {
-    "@dword-design/base": "^15.4.1",
+    "@dword-design/base": "^15.4.2",
     "@dword-design/base-config-nuxt-module": "^3.0.5",
     "@mdi/svg": "^7.4.47",
     "@playwright/browser-chromium": "^1.56.1",

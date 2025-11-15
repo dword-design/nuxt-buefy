@@ -48,10 +48,10 @@
     "endent": "npm:@dword-design/endent@^1.4.7",
     "execa": "^9.6.0",
     "get-port": "^7.1.0",
-    "get-port-please": "^3.2.0",
     "nuxt": "^3.20.1",
     "nuxt-dev-ready": "^5.0.1",
     "output-files": "^3.0.0",
+    "port-ready": "npm:@dword-design/port-ready-fork@^0.0.2",
     "sass": "^1.94.0",
     "tree-kill-promise": "^4.0.0",
     "vite-svg-loader": "^5.1.0"

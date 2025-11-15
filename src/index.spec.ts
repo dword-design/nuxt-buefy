@@ -3,9 +3,9 @@ import packageName from 'depcheck-package-name';
 import endent from 'endent';
 import { execaCommand } from 'execa';
 import getPort from 'get-port';
-import { waitForPort } from 'get-port-please';
 import nuxtDevReady from 'nuxt-dev-ready';
 import outputFiles from 'output-files';
+import portReady from 'port-ready';
 import kill from 'tree-kill-promise';
 
 test('duplicate elements issue in production', async ({ page }, testInfo) => {
@@ -38,7 +38,7 @@ test('duplicate elements issue in production', async ({ page }, testInfo) => {
   });
 
   try {
-    await waitForPort(port);
+    await portReady(port);
     await page.goto(`http://localhost:${port}`);
     await expect(page.locator('.foo')).toHaveCount(1);
   } finally {

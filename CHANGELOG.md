@@ -1,3 +1,10 @@
+## [5.0.8](https://github.com/dword-design/nuxt-buefy/compare/v5.0.7...v5.0.8) (2025-11-15)
+
+
+### Bug Fixes
+
+* add space ([0bf3fa9](https://github.com/dword-design/nuxt-buefy/commit/0bf3fa9a9cc41a69b8a55bb0ed3c152ae701c907))
+
 ## [5.0.7](https://github.com/dword-design/nuxt-buefy/compare/v5.0.6...v5.0.7) (2025-08-13)
 
 

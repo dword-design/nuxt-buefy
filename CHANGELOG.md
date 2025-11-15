@@ -1,3 +1,10 @@
+## [5.0.9](https://github.com/dword-design/nuxt-buefy/compare/v5.0.8...v5.0.9) (2025-11-15)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#226](https://github.com/dword-design/nuxt-buefy/issues/226)) ([e73f084](https://github.com/dword-design/nuxt-buefy/commit/e73f0848769f2bf6a9a0113ef5408b983ff68ae3))
+
 ## [5.0.8](https://github.com/dword-design/nuxt-buefy/compare/v5.0.7...v5.0.8) (2025-11-15)
 
 

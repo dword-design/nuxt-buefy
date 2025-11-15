@@ -99,7 +99,7 @@ test('icon', async ({ page }, testInfo) => {
     `,
     'pages/index.vue': endent`
       <template>
-        <b-icon class="foo":icon="CheckIcon" />
+        <b-icon class="foo" :icon="CheckIcon" />
       </template>
 
       <script setup lang="ts">

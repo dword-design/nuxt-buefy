@@ -42,7 +42,7 @@ test('duplicate elements issue in production', async ({ page }, testInfo) => {
     await page.goto(`http://localhost:${port}`);
     await expect(page.locator('.foo')).toHaveCount(1);
   } finally {
-    await kill(nuxt.pid);
+    await kill(nuxt.pid!);
   }
 });
 
@@ -78,7 +78,7 @@ test('works', async ({ page }, testInfo) => {
     await expect(button).toBeVisible();
     await expect(button).toHaveScreenshot();
   } finally {
-    await kill(nuxt.pid);
+    await kill(nuxt.pid!);
   }
 });
 
@@ -123,6 +123,6 @@ test('icon', async ({ page }, testInfo) => {
     await expect(icon).toBeVisible();
     await expect(icon).toHaveScreenshot();
   } finally {
-    await kill(nuxt.pid);
+    await kill(nuxt.pid!);
   }
 });

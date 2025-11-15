@@ -1,7 +1,8 @@
 {
   "depcheckConfig": {
     "ignoreMatches": [
-      "@playwright/browser-chromium"
+      "@playwright/browser-chromium",
+      "sass"
     ]
   },
   "name": "@dword-design/nuxt-module",

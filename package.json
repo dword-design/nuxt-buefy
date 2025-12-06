@@ -31,7 +31,7 @@
     "verify": "base verify"
   },
   "dependencies": {
-    "@dword-design/buefy-addons": "^2.0.14",
+    "@dword-design/buefy-addons": "^3.0.0",
     "@dword-design/buefy-svg-icon": "^4.0.2",
     "@nuxt/kit": "^3.20.1",
     "buefy": "npm:@dword-design/buefy-fork@^1.0.0",

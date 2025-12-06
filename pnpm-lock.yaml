@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@dword-design/buefy-addons':
-        specifier: ^2.0.14
-        version: 2.0.14
+        specifier: ^3.0.0
+        version: 3.0.0
       '@dword-design/buefy-svg-icon':
         specifier: ^4.0.2
         version: 4.0.2(vue@3.5.25(typescript@5.9.3))
@@ -318,9 +318,9 @@ packages:
     engines: {node: '>=20'}
     hasBin: true
 
-  '@dword-design/buefy-addons@2.0.14':
-    resolution: {integrity: sha512-kkv5BV9FbZEFzzo9ZQ9igNj8/qGwfQPRPEFl8eEHry6nY572I3w3+8/eLyJZdIAFDT/WZyYu2351VrRBAE2G0w==}
-    engines: {node: '>=16'}
+  '@dword-design/buefy-addons@3.0.0':
+    resolution: {integrity: sha512-9+cHhCiqkHOy6kChaz1reYyzXH14GerKNAMo7lqS+bJ/R6064hq+33tUz4DirhrUBFiIIzrCy7WjJY50iTWfsQ==}
+    engines: {node: '>=22'}
 
   '@dword-design/buefy-fork@1.0.0':
     resolution: {integrity: sha512-jklmmqyI+76+6SZklL+C+1yX1F434PmecYj3WXoiCl2y0apnCJakJsycg0c+TqL9xY4Fp6MtV8S1PqyqPqevcA==}
@@ -6270,6 +6270,9 @@ packages:
   vue-bundle-renderer@2.2.0:
     resolution: {integrity: sha512-sz/0WEdYH1KfaOm0XaBmRZOWgYTEvUDt6yPYaUzl4E52qzgWLlknaPPTTZmp6benaPTlQAI/hN1x3tAzZygycg==}
 
+  vue-component-type-helpers@3.1.6:
+    resolution: {integrity: sha512-lqPXjac98uz7zh8fxHxJPJDP4SKeaYn2Fx4kQLCBthMXm9VsmPdzUWOGWMcXN7reJ9IkcBiOFxsFS/Po7dARiw==}
+
   vue-devtools-stub@0.1.0:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
 
@@ -6982,7 +6985,9 @@ snapshots:
       - sass
       - supports-color
 
-  '@dword-design/buefy-addons@2.0.14': {}
+  '@dword-design/buefy-addons@3.0.0':
+    dependencies:
+      vue-component-type-helpers: 3.1.6
 
   '@dword-design/buefy-fork@1.0.0(vue@3.5.25(typescript@5.9.3))':
     dependencies:
@@ -13311,6 +13316,8 @@ snapshots:
   vue-bundle-renderer@2.2.0:
     dependencies:
       ufo: 1.6.1
+
+  vue-component-type-helpers@3.1.6: {}
 
   vue-devtools-stub@0.1.0: {}
 

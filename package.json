@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@dword-design/base": "^15.4.2",
-    "@dword-design/base-config-nuxt-module": "^3.0.5",
+    "@dword-design/base-config-nuxt-module": "^5.0.0",
     "@mdi/svg": "^7.4.47",
     "@playwright/browser-chromium": "^1.56.1",
     "@playwright/test": "^1.56.1",

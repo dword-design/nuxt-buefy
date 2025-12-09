@@ -33,7 +33,7 @@
   "dependencies": {
     "@dword-design/buefy-addons": "^2.0.14",
     "@dword-design/buefy-svg-icon": "^4.0.2",
-    "@nuxt/kit": "^3.20.1",
+    "@nuxt/kit": "^4.0.0",
     "buefy": "npm:@dword-design/buefy-fork@^1.0.0",
     "bulma": "^0.9.4",
     "depcheck-package-name": "^4.0.1",

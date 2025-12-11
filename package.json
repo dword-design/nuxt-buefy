@@ -37,7 +37,7 @@
     "buefy": "npm:@dword-design/buefy-fork@^1.0.0",
     "bulma": "^0.9.4",
     "depcheck-package-name": "^4.0.1",
-    "sass-stretched-link": "^2.0.53"
+    "sass-stretched-link": "^3.0.0"
   },
   "devDependencies": {
     "@dword-design/base": "^15.4.2",

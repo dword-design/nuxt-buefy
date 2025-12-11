@@ -36,7 +36,7 @@
     "@nuxt/kit": "^3.20.1",
     "buefy": "npm:@dword-design/buefy-fork@^1.0.0",
     "bulma": "^0.9.4",
-    "depcheck-package-name": "^4.0.1",
+    "depcheck-package-name": "^5.0.0",
     "sass-stretched-link": "^2.0.53"
   },
   "devDependencies": {

@@ -12,19 +12,19 @@ test('duplicate elements issue in production', async ({ page }, testInfo) => {
   const cwd = testInfo.outputPath();
 
   await outputFiles(cwd, {
-    'nuxt.config.ts': endent`
-      export default {
-        css: ['../../src/style.scss'],
-        modules: ['../../src'],
-      }
-    `,
-    'pages/index.vue': endent`
+    'app/pages/index.vue': endent`
       <template>
         <b-navbar>
           <template #brand><span /></template>
         </b-navbar>
         <div class="foo" />
       </template>
+    `,
+    'nuxt.config.ts': endent`
+      export default {
+        css: ['../../src/style.scss'],
+        modules: ['../../src'],
+      }
     `,
   });
 
@@ -50,16 +50,16 @@ test('works', async ({ page }, testInfo) => {
   const cwd = testInfo.outputPath();
 
   await outputFiles(cwd, {
+    'app/pages/index.vue': endent`
+      <template>
+        <b-button class="foo">foo</b-button>
+      </template>
+    `,
     'nuxt.config.ts': endent`
       export default {
         css: ['../../src/style.scss'],
         modules: ['../../src'],
       }
-    `,
-    'pages/index.vue': endent`
-      <template>
-        <b-button class="foo">foo</b-button>
-      </template>
     `,
   });
 
@@ -86,6 +86,15 @@ test('icon', async ({ page }, testInfo) => {
   const cwd = testInfo.outputPath();
 
   await outputFiles(cwd, {
+    'app/pages/index.vue': endent`
+      <template>
+        <b-icon class="foo" :icon="CheckIcon" />
+      </template>
+
+      <script setup lang="ts">
+      import CheckIcon from '${packageName`@mdi/svg`}/svg/check.svg?component';
+      </script>
+    `,
     'nuxt.config.ts': endent`
       import viteSvgLoader from '${packageName`vite-svg-loader`}';
 
@@ -96,15 +105,6 @@ test('icon', async ({ page }, testInfo) => {
           plugins: [viteSvgLoader()],
         }
       }
-    `,
-    'pages/index.vue': endent`
-      <template>
-        <b-icon class="foo" :icon="CheckIcon" />
-      </template>
-
-      <script setup lang="ts">
-      import CheckIcon from '${packageName`@mdi/svg`}/svg/check.svg?component';
-      </script>
     `,
   });
 

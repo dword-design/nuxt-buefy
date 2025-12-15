@@ -14,7 +14,7 @@
     ".husky": true,
     ".npmrc": true,
     ".nuxt": true,
-    ".nyc_output": true,
+    ".pnpm-store": true,
     ".releaserc.json": true,
     ".renovaterc.json": true,
     ".vscode": true,

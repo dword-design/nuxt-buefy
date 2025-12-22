@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@dword-design/buefy-addons": "^3.0.0",
-    "@dword-design/buefy-svg-icon": "^4.0.2",
+    "@dword-design/buefy-svg-icon": "^5.0.0",
     "@nuxt/kit": "^4.2.2",
     "buefy": "npm:@dword-design/buefy-fork@^1.0.0",
     "bulma": "^0.9.4",

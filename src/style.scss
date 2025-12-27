@@ -1,12 +1,14 @@
-@import "bulma/bulma.sass";
-@import "buefy/src/scss/buefy.scss";
-@import "sass-stretched-link";
+@forward "bulma/sass";
+@use "buefy/src/scss/buefy";
+@use "sass-stretched-link";
+@use "bulma/sass/utilities/mixins";
+@use "bulma/sass/utilities/derived-variables" as vars;
 
-$shadow-lg: 0 0.5em 2em -0.125em rgba($scheme-invert, 0.2),
-  0 0 0 1px rgba($scheme-invert, 0.02);
+$shadow-lg: 0 0.5em 2em -0.125em rgba(vars.$scheme-invert, 0.2),
+  0 0 0 1px rgba(vars.$scheme-invert, 0.02);
   
 .is-stretched {
-  @include stretched-link;
+  @include sass-stretched-link.stretched-link;
 }
 
 .is-scale-on-hover {
@@ -19,16 +21,16 @@ $shadow-lg: 0 0.5em 2em -0.125em rgba($scheme-invert, 0.2),
 }
 
 dl.is-table {
-
-  @include tablet {
+  
+  @include mixins.tablet {
     display: table;
   }
-  
+
   .dl-row {
-    @include mobile {
+    @include mixins.mobile {
       margin-bottom: .5rem;
     }
-    @include tablet {
+    @include mixins.tablet {
       display: table-row;
     }
   }
@@ -36,17 +38,9 @@ dl.is-table {
   dt {
     font-weight: bold;
 
-    @include tablet {
+    @include mixins.tablet {
       display: table-cell;
-      padding-right: 1rem;
-    }
-  }
-
-  dd {
-    margin-left: 0;
-
-    @include tablet {
-      display: table-cell;
+      padding-inline-end: 1rem;
     }
   }
 }
@@ -56,106 +50,36 @@ dl.is-table {
 
   &.is-vertical-mobile {
 
-    @include mobile {
+    @include mixins.mobile {
       flex-direction: column;
     }
   
     .media-left {
-      @include mobile {
-        margin-right: 0;
-        margin-bottom: 1rem;
+      @include mixins.mobile {
+        margin-inline-end: 0;
+        margin-bottom: var(--bulma-media-spacing);
       }
     
       .image {
-        @include mobile {
+        @include mixins.mobile {
           width: 100% !important;
           height: auto !important;
         }
       }
     }
-  
-    .media-content {
-      @include mobile {
-        overflow-x : visible;
-      }
-    }
     
     .media-right {
-      @include mobile {
-        margin-left: 0;
-        margin-top: 1rem;
-        justify-content: flex-end;
+      @include mixins.mobile {
+        margin-inline-start: 0;
+        margin-top: var(--bulma-media-spacing);
       }
     }
-  }
-}
-
-.media-left, .media-right {
-  
-  &.is-bottom {
-    display: flex;
-    align-items: flex-end;
-  }
-}
-
-@mixin horizontal-card {
-  flex-direction: row;
-  display: flex;
-  flex-basis: 50ex;
-  flex-grow: 0;
-  flex-shrink: 1;
-
-  .card-image {
-    flex: 1;
-
-    .image {
-      min-height: 100%;
-    }
-  }
-
-  .card-content {
-    flex: 1;
-  }
-
-  &.is-right {
-    flex-direction: row-reverse;
   }
 }
 
 .card {
 
- .media:not(:last-child) {
-    margin-bottom: 0.75rem;
-  }
-  
-  &.is-horizontal {
-    @include tablet {
-      @include horizontal-card;
-    }
-
-    &.is-mobile {
-      @include mobile {
-        @include horizontal-card;
-      }
-    }
-  }
-  
-  &.is-hover-image {
-    .image {
-      overflow: hidden;
-    }
-
-    img {
-      transition: 0.3s all;
-      backface-visibility: hidden;
-    }
-
-    &:hover img {
-      transform: scale(1.1);
-    }
-  }
-
-  &:not(.is-shadowless).is-scale-on-hover {
+  &.is-scale-on-hover {
     &:hover,
     &:focus-within {
       box-shadow: $shadow-lg;
@@ -167,58 +91,23 @@ dl.is-table {
   
   &.is-link {
     background: transparent;
-    color: $link;
+    color: hsl(var(--bulma-button-h),var(--bulma-button-s),calc(var(--bulma-button-background-l) + var(--bulma-button-background-l-delta)));
     padding: 0;
-    height: auto;
-    font-size: inherit;
-    line-height: inherit;
     vertical-align: baseline;
-
-    &:hover {
-      background: transparent;
-      color: $link-hover;
-    }
-
-    &:focus {
-      background: transparent;
-      color: $link-focus;
-    }
-  }
-}
-
-.field.is-grouped {
-  @include mobile {
-    flex-direction: column;
-  }
-
-  .field:not(:last-child) {
-    @include mobile {
-      margin-right: 0;
-    }
   }
 }
 
 .buttons {
 
-  &.is-right {
-    margin-left: -.25rem;
-    margin-right: -.25rem;
-  }
-
   &.is-vertical-tablet {
 
-    @include tablet {
+    @include mixins.tablet {
       flex-direction: column;
-    }
-
-    &:not(.is-right) .button:not(:last-child):not(.is-fullwidth) {
-      @include tablet {
-        margin-right: 0;
-      }
+      align-items: flex-start;
     }
 
     &.is-right {
-      @include tablet {
+      @include mixins.tablet {
         align-items: flex-end;
       }
     }
@@ -229,25 +118,15 @@ dl.is-table {
   width: 128px;
 }
 
-.inline-list {
-  margin-left: -.125rem;
-  margin-right: -.125rem;
-
-  > * {
-    margin-left: .125rem;
-    margin-right: .125rem;
-  }
-}
-
 .columns {
 
   &.is-reverse-mobile {
-    @include mobile {
+    @include mixins.mobile {
       display: flex;
       flex-direction: column-reverse;
     }
     &.is-vcentered {
-      @include mobile {
+      @include mixins.mobile {
         align-items: stretch;
       }
     }

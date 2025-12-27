@@ -1,9 +1,8 @@
-@use "bulma/sass" as bulma;
+@forward "bulma/sass";
 @use "buefy/src/scss/buefy";
 @use "sass-stretched-link";
 @use "bulma/sass/utilities/mixins";
 @use "bulma/sass/utilities/derived-variables" as vars;
-@use "sass:color";
 
 $shadow-lg: 0 0.5em 2em -0.125em rgba(vars.$scheme-invert, 0.2),
   0 0 0 1px rgba(vars.$scheme-invert, 0.02);

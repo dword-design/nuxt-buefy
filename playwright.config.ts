@@ -7,5 +7,5 @@ export default defineConfig({
   snapshotPathTemplate:
     '{snapshotDir}/{testFileDir}/{testFileName}-snapshots/{arg}{-projectName}{ext}',
 
-  timeout: 150_000,
+  timeout: 150_000, // TODO: Speed up bulma building, then reduce the timeout
 });

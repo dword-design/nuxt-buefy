@@ -22,6 +22,10 @@ $shadow-lg: 0 0.5em 2em -0.125em rgba(vars.$scheme-invert, 0.2),
 
 dl.is-table {
   
+  @include mixins.tablet {
+    display: table;
+  }
+
   .dl-row {
     @include mixins.mobile {
       margin-bottom: .5rem;
@@ -35,7 +39,8 @@ dl.is-table {
     font-weight: bold;
 
     @include mixins.tablet {
-      padding-right: 1rem;
+      display: table-cell;
+      padding-inline-end: 1rem;
     }
   }
 }

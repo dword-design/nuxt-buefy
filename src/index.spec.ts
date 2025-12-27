@@ -109,7 +109,6 @@ test('link button', async ({ page }, testInfo) => {
 
   try {
     await nuxtDevReady(port);
-    console.log(`Navigating to http://localhost:${port}`);
     await page.goto(`http://localhost:${port}`);
     const container = page.locator('.foo');
     await expect(container).toBeVisible();
@@ -160,8 +159,6 @@ test('data list table variant', async ({ page }, testInfo) => {
 
   try {
     await nuxtDevReady(port);
-    console.log(`Navigating to http://localhost:${port}`);
-    await new Promise(() => {});
     await page.goto(`http://localhost:${port}`);
     const container = page.locator('dl');
     await expect(container).toBeVisible();

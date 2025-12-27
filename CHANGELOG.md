@@ -1,3 +1,17 @@
+# [6.0.0](https://github.com/dword-design/nuxt-buefy/compare/v5.0.9...v6.0.0) (2025-12-15)
+
+
+### Bug Fixes
+
+* trigger release ([c0df694](https://github.com/dword-design/nuxt-buefy/commit/c0df694d4031c20d56770b4654c3bcf6d0638965))
+* update dependency @dword-design/base to v16 ([#231](https://github.com/dword-design/nuxt-buefy/issues/231)) ([8fcd04d](https://github.com/dword-design/nuxt-buefy/commit/8fcd04df3183d6017813569f9942a2d87add7342))
+
+
+### BREAKING CHANGES
+
+* node >= 22
+* nuxt 4
+
 ## [5.0.9](https://github.com/dword-design/nuxt-buefy/compare/v5.0.8...v5.0.9) (2025-11-15)
 
 

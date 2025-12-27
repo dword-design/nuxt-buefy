@@ -32,15 +32,14 @@
   },
   "dependencies": {
     "@dword-design/buefy-addons": "^3.0.0",
-    "@dword-design/buefy-svg-icon": "^4.0.2",
+    "@dword-design/buefy-svg-icon": "^5.0.0",
     "@nuxt/kit": "^4.2.2",
-    "buefy": "npm:@dword-design/buefy-fork@^1.0.0",
-    "bulma": "^1.0.0",
+    "buefy": "npm:@dword-design/buefy-fork@^2.0.0",
     "depcheck-package-name": "^5.0.0",
     "sass-stretched-link": "^3.0.0"
   },
   "devDependencies": {
-    "@dword-design/base": "^16.1.4",
+    "@dword-design/base": "^16.1.6",
     "@dword-design/base-config-nuxt-module": "^5.0.0",
     "@mdi/svg": "^7.4.47",
     "@playwright/browser-chromium": "^1.57.0",
@@ -52,9 +51,12 @@
     "nuxt-dev-ready": "^5.0.1",
     "output-files": "^3.0.0",
     "port-ready": "npm:@dword-design/port-ready-fork@^0.0.3",
-    "sass": "^1.96.0",
+    "sass": "^1.97.1",
     "tree-kill-promise": "^5.0.0",
     "vite-svg-loader": "^5.1.0"
+  },
+  "peerDependencies": {
+    "bulma": "^1.0.0"
   },
   "packageManager": "pnpm@10.12.1+sha512.f0dda8580f0ee9481c5c79a1d927b9164f2c478e90992ad268bbb2465a736984391d6333d2c327913578b2804af33474ca554ba29c04a8b13060a717675ae3ac",
   "engines": {

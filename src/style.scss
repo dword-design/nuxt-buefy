@@ -6,7 +6,11 @@
 
 $shadow-lg: 0 0.5em 2em -0.125em rgba(vars.$scheme-invert, 0.2),
   0 0 0 1px rgba(vars.$scheme-invert, 0.02);
-  
+
+:root {
+  --bulma-shadow-lg: #{$shadow-lg};
+}
+
 .is-stretched {
   @include sass-stretched-link.stretched-link;
 }

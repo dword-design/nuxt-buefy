@@ -1,3 +1,10 @@
+## [6.0.3](https://github.com/dword-design/nuxt-buefy/compare/v6.0.2...v6.0.3) (2025-12-28)
+
+
+### Bug Fixes
+
+* revert bulma 1 ([87eaaba](https://github.com/dword-design/nuxt-buefy/commit/87eaaba1a4b3ee3067489ca6ae91d736e71c1b1f))
+
 # [6.0.0](https://github.com/dword-design/nuxt-buefy/compare/v5.0.9...v6.0.0) (2025-12-15)
 
 

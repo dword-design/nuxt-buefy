@@ -1,3 +1,11 @@
+## [6.0.2](https://github.com/dword-design/nuxt-buefy/compare/v6.0.1...v6.0.2) (2025-12-28)
+
+
+### Bug Fixes
+
+* depcheck ignore sass-embedded ([1ffd65b](https://github.com/dword-design/nuxt-buefy/commit/1ffd65b31a8a1e9e347a09dbfe9a2161634159ce))
+* use sass-embedded ([fef104a](https://github.com/dword-design/nuxt-buefy/commit/fef104af0e40168caf4775f88ac9bc1985af4446))
+
 ## [6.0.1](https://github.com/dword-design/nuxt-buefy/compare/v6.0.0...v6.0.1) (2025-12-28)
 
 

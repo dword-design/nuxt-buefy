@@ -1,3 +1,10 @@
+## [7.0.1](https://github.com/dword-design/nuxt-buefy/compare/v7.0.0...v7.0.1) (2025-12-28)
+
+
+### Bug Fixes
+
+* css variable for shadow-lg ([ab23001](https://github.com/dword-design/nuxt-buefy/commit/ab230010aa5db8905c6b1d2d689c96d20a16c921))
+
 # [7.0.0](https://github.com/dword-design/nuxt-buefy/compare/v6.0.3...v7.0.0) (2025-12-28)
 
 

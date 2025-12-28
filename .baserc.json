@@ -2,7 +2,7 @@
   "depcheckConfig": {
     "ignoreMatches": [
       "@playwright/browser-chromium",
-      "sass"
+      "sass-embedded"
     ]
   },
   "name": "@dword-design/nuxt-module",

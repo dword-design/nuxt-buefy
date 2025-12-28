@@ -34,7 +34,7 @@
     "@dword-design/buefy-addons": "^3.0.0",
     "@dword-design/buefy-svg-icon": "^4.0.2",
     "@nuxt/kit": "^4.2.2",
-    "buefy": "npm:@dword-design/buefy-fork@^1.0.0",
+    "buefy": "npm:@dword-design/buefy-fork@^2.0.0",
     "bulma": "^0.9.4",
     "depcheck-package-name": "^5.0.0",
     "sass-stretched-link": "^3.0.0"

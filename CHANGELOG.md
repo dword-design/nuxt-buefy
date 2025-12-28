@@ -1,18 +1,9 @@
-## [6.0.2](https://github.com/dword-design/nuxt-buefy/compare/v6.0.1...v6.0.2) (2025-12-28)
+## [6.0.3](https://github.com/dword-design/nuxt-buefy/compare/v6.0.2...v6.0.3) (2025-12-28)
 
 
 ### Bug Fixes
 
-* depcheck ignore sass-embedded ([1ffd65b](https://github.com/dword-design/nuxt-buefy/commit/1ffd65b31a8a1e9e347a09dbfe9a2161634159ce))
-* use sass-embedded ([fef104a](https://github.com/dword-design/nuxt-buefy/commit/fef104af0e40168caf4775f88ac9bc1985af4446))
-
-## [6.0.1](https://github.com/dword-design/nuxt-buefy/compare/v6.0.0...v6.0.1) (2025-12-28)
-
-
-### Bug Fixes
-
-* update dependency bulma to v1 ([#186](https://github.com/dword-design/nuxt-buefy/issues/186)) ([f679e8c](https://github.com/dword-design/nuxt-buefy/commit/f679e8ced5340be84b6f537d300b73cef52883dd))
-* updates ([c9c6c2e](https://github.com/dword-design/nuxt-buefy/commit/c9c6c2e63717c36399b633f4ec395eae6946b13e))
+* revert bulma 1 ([87eaaba](https://github.com/dword-design/nuxt-buefy/commit/87eaaba1a4b3ee3067489ca6ae91d736e71c1b1f))
 
 # [6.0.0](https://github.com/dword-design/nuxt-buefy/compare/v5.0.9...v6.0.0) (2025-12-15)
 

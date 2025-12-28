@@ -88,7 +88,7 @@ test('link button', async ({ page }, testInfo) => {
   await outputFiles(cwd, {
     'app/pages/index.vue': endent`
       <template>
-        <span class="foo p-2 is-linline-block">Foo <b-button type="is-link">bar</b-button> baz</span>
+        <span class="foo p-2 is-inline-block">Foo <b-button type="is-link">bar</b-button> baz</span>
       </template>
     `,
     'nuxt.config.ts': endent`

@@ -1,11 +1,16 @@
-@forward "bulma/sass";
-@use "buefy/src/scss/buefy";
+@forward "buefy/src/scss/buefy";
 @use "sass-stretched-link";
 @use "bulma/sass/utilities/mixins";
 @use "bulma/sass/utilities/derived-variables" as vars;
 
-$shadow-lg: 0 0.5em 2em -0.125em rgba(vars.$scheme-invert, 0.2),
-  0 0 0 1px rgba(vars.$scheme-invert, 0.02);
+$shadow-lg: 0 0.5em 2em -0.125em hsl(
+      var(--bulma-scheme-h) var(--bulma-scheme-s) var(--bulma-scheme-invert-l) /
+        20%
+    ),
+  0 0 0 1px hsl(
+      var(--bulma-scheme-h) var(--bulma-scheme-s) var(--bulma-scheme-invert-l) /
+        2%
+    );
 
 :root {
   --bulma-shadow-lg: #{$shadow-lg};
@@ -86,7 +91,7 @@ dl.is-table {
   &.is-scale-on-hover {
     &:hover,
     &:focus-within {
-      box-shadow: $shadow-lg;
+      box-shadow: var(--bulma-shadow-lg);
     }
   }
 }

@@ -1,3 +1,15 @@
+# [8.0.0](https://github.com/dword-design/nuxt-buefy/compare/v7.0.1...v8.0.0) (2025-12-29)
+
+
+### Bug Fixes
+
+* split bulma and buefy ([#246](https://github.com/dword-design/nuxt-buefy/issues/246)) ([a384686](https://github.com/dword-design/nuxt-buefy/commit/a3846864ef8178421cb1450e0f24f6d3dd0a2b82))
+
+
+### BREAKING CHANGES
+
+* split bulma and buefy
+
 ## [7.0.1](https://github.com/dword-design/nuxt-buefy/compare/v7.0.0...v7.0.1) (2025-12-28)
 
 

@@ -1,7 +1,6 @@
 @forward "buefy/src/scss/buefy";
 @use "sass-stretched-link";
 @use "bulma/sass/utilities/mixins";
-@use "bulma/sass/utilities/derived-variables" as vars;
 
 $shadow-lg: 0 0.5em 2em -0.125em hsl(
       var(--bulma-scheme-h) var(--bulma-scheme-s) var(--bulma-scheme-invert-l) /

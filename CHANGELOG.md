@@ -1,3 +1,10 @@
+## [8.0.1](https://github.com/dword-design/nuxt-buefy/compare/v8.0.0...v8.0.1) (2026-04-14)
+
+
+### Bug Fixes
+
+* remove unused import ([07358ff](https://github.com/dword-design/nuxt-buefy/commit/07358ff84a721ed9abbe148302fd33384c69d2ab))
+
 # [8.0.0](https://github.com/dword-design/nuxt-buefy/compare/v7.0.1...v8.0.0) (2025-12-29)
 
 

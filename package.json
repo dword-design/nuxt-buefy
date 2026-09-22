@@ -45,7 +45,7 @@
     "@playwright/browser-chromium": "^1.57.0",
     "@playwright/test": "^1.57.0",
     "endent": "npm:@dword-design/endent@^1.4.7",
-    "execa": "^9.6.1",
+    "execa": "^10.0.0",
     "get-port": "^7.1.0",
     "nuxt": "^4.2.2",
     "nuxt-dev-ready": "^5.0.1",
